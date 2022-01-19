@@ -13,13 +13,17 @@ import ActivityIndicatorView
 struct ContentView: View {
     @State var loading = true
     @State var showWebserver: Bool = false
+    
+    @State var addDevice: Bool = false
+    @State var car: String = ""
+    @State var deviceID: String = ""
     @State var showGPS: Bool = false
     
 //hardcoded Koordinaten - TODO!
     @State var region = MKCoordinateRegion(
-center: CLLocationCoordinate2D(
-        latitude: 52.54050502510506, longitude: 13.605319312514066),
-span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01))
+        center: CLLocationCoordinate2D(
+            latitude: 52.54050502510506, longitude: 13.605319312514066),
+        span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01))
     
     var body: some View {
         TabView{
@@ -33,12 +37,14 @@ span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01))
                     Spacer()
                 }
             }
-        .navigationTitle("")
-        .navigationBarItems(trailing:
-                                Button(action: { showWebserver.toggle()},
-                                       label: {Image(systemName: "network.badge.shield.half.filled")
-                                       .foregroundColor(.green)
-                                       }))
+        //.navigationTitle("")
+            .navigationBarItems(trailing:
+                HStack{Button(action:{addDevice.toggle()}){
+                            Image(systemName: "plus")
+                            .foregroundColor(.white)}
+                       Button(action: {showWebserver.toggle()},
+                                label: {Image(systemName: "network.badge.shield.half.filled")
+                                    .foregroundColor(.green)})})
 //Hintergrund
         .background(Image("city")
         .resizable()
@@ -50,16 +56,44 @@ span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01))
         }
         .sheet(isPresented: $showWebserver, content: {
             ZStack{
-                Color.secondary
+                Color.black
                 VStack{
-                Text("Webserver Status")
+                Spacer()
+                Image("car2")
+                    Text("Webserver Status")
+                        .foregroundColor(.white)
                     ActivityIndicatorView(isVisible: $loading,
                                           type: .growingCircle)
-                        .foregroundColor(.green)
-                        .frame(width: 100, height: 100, alignment: .center)
+                                            .foregroundColor(.green)
+                                            .frame(width: 100, height: 100, alignment: .center)
                 }
             }
         })
+        .sheet(isPresented: $addDevice, content: {
+            ZStack{
+                Color.black
+                
+            VStack {
+                Spacer()
+                Image("car2")
+                Text("Konfigurier mich!")
+                    .foregroundColor(.white)
+                TextField("Fahrezugname", text: $car)
+                    .frame(width:300, height:45)
+                    .background(Color(.white))
+                    .font(Font.system(size: 16))
+                    .multilineTextAlignment(.center)
+                    .cornerRadius(22)
+                TextField("GeräteID", text: $deviceID)
+                    .frame(width:300, height:45)
+                    .background(Color(.white))
+                    .font(Font.system(size: 16))
+                    .multilineTextAlignment(.center)
+                .cornerRadius(22)
+                }
+            }
+        })
+        
     .tabItem {
         Image(systemName: "house.fill")
     }
@@ -67,7 +101,12 @@ span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01))
 //GPS Tab
             NavigationView{
                 VStack{
+                    GeometryReader { proxy in
                     Map(coordinateRegion: $region)
+                            .frame(width: proxy.size.width,
+                                   height: proxy.size.height,
+                                   alignment: .center)
+                    }
                 }
                 //Hintergrund
                         .background(Image("city")
@@ -88,9 +127,9 @@ span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01))
 
 struct HelloView: View {
     var body: some View {
-            Text("Willkommen")
-             .font(Font.headline)
-             .foregroundColor(.init(red: 0, green: 255, blue: 255))
+            Text("Schrödingers Alarm©")
+            .font(.system(size: 18, weight: .light, design: .default))
+             .foregroundColor(Color(red: 100/255, green: 255/255, blue: 255/255))
              .padding()
     }
 }
