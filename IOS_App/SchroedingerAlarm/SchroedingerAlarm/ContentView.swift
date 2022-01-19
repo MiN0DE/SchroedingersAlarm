@@ -89,7 +89,17 @@ struct ContentView: View {
                     .background(Color(.white))
                     .font(Font.system(size: 16))
                     .multilineTextAlignment(.center)
-                .cornerRadius(22)
+                    .cornerRadius(22)
+                Button(action: {
+                    print("Gerät hinzugefügt")
+                }) {
+                    Text("Los geht´s!")
+                        .padding(13)
+                        .frame(width: 150, height: 45, alignment: .center)
+                        .foregroundColor(.white)
+                        .background(.secondary)
+                        .cornerRadius(22)
+                }
                 }
             }
         })
