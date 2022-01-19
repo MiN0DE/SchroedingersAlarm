@@ -14,6 +14,7 @@
 		1A50CBB4278884920067EC65 /* SchroedingerAlarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A50CBB3278884920067EC65 /* SchroedingerAlarmTests.swift */; };
 		1A50CBBE278884930067EC65 /* SchroedingerAlarmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A50CBBD278884930067EC65 /* SchroedingerAlarmUITests.swift */; };
 		1A50CBC0278884930067EC65 /* SchroedingerAlarmUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A50CBBF278884930067EC65 /* SchroedingerAlarmUITestsLaunchTests.swift */; };
+		1AD6317F27985F8C00459E81 /* ActivityIndicatorView in Frameworks */ = {isa = PBXBuildFile; productRef = 1AD6317E27985F8C00459E81 /* ActivityIndicatorView */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AD6317F27985F8C00459E81 /* ActivityIndicatorView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +145,9 @@
 			dependencies = (
 			);
 			name = SchroedingerAlarm;
+			packageProductDependencies = (
+				1AD6317E27985F8C00459E81 /* ActivityIndicatorView */,
+			);
 			productName = SchroedingerAlarm;
 			productReference = 1A50CB9F278884910067EC65 /* SchroedingerAlarm.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +220,9 @@
 				Base,
 			);
 			mainGroup = 1A50CB96278884910067EC65;
+			packageReferences = (
+				1AD6317D27985F8C00459E81 /* XCRemoteSwiftPackageReference "ActivityIndicatorView" */,
+			);
 			productRefGroup = 1A50CBA0278884910067EC65 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -579,6 +587,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1AD6317D27985F8C00459E81 /* XCRemoteSwiftPackageReference "ActivityIndicatorView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/exyte/ActivityIndicatorView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1AD6317E27985F8C00459E81 /* ActivityIndicatorView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1AD6317D27985F8C00459E81 /* XCRemoteSwiftPackageReference "ActivityIndicatorView" */;
+			productName = ActivityIndicatorView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1A50CB97278884910067EC65 /* Project object */;
 }

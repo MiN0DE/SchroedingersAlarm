@@ -6,21 +6,29 @@
 //
 
 import SwiftUI
+import MapKit
+import ActivityIndicatorView
+
 
 struct ContentView: View {
-    
+    @State var loading = true
     @State var showWebserver: Bool = false
     @State var showGPS: Bool = false
     
+//hardcoded Koordinaten - TODO!
+    @State var region = MKCoordinateRegion(
+center: CLLocationCoordinate2D(
+        latitude: 52.54050502510506, longitude: 13.605319312514066),
+span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01))
+    
     var body: some View {
         TabView{
-//Erster Tab
+
+//Home Tab
         NavigationView {
-        
             VStack{
                 Spacer()
                 HelloView()
-            
                 HStack{
                     Spacer()
                 }
@@ -43,7 +51,13 @@ struct ContentView: View {
         .sheet(isPresented: $showWebserver, content: {
             ZStack{
                 Color.secondary
+                VStack{
                 Text("Webserver Status")
+                    ActivityIndicatorView(isVisible: $loading,
+                                          type: .growingCircle)
+                        .foregroundColor(.green)
+                        .frame(width: 100, height: 100, alignment: .center)
+                }
             }
         })
     .tabItem {
@@ -51,7 +65,18 @@ struct ContentView: View {
     }
             
 //GPS Tab
-            Text("Platzhalter für GPS Daten / Karte")
+            NavigationView{
+                VStack{
+                    Map(coordinateRegion: $region)
+                }
+                //Hintergrund
+                        .background(Image("city")
+                        .resizable()
+                        .scaledToFill()
+                        .clipped()
+                        .edgesIgnoringSafeArea([.top])
+                        )
+            }
                 .tabItem{
                     Image(systemName: "location.fill")
                 }
