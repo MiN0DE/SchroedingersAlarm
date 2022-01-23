@@ -35,14 +35,17 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'SchrödingersAlarm',
-      home: Scaffold(
-          backgroundColor: Colors.blue,
+      title: 'Flutter Demo',
+      home: DefaultTabController(
+        length: 3,
+        child: Scaffold(
           appBar: AppBar(
             leading: Icon(Icons.menu),
             title: const Text(
               'SchrödingersAlarm',
             ),
+            automaticallyImplyLeading: false,
+            backgroundColor: Colors.blue,
             actions: [
               Theme(
                 data: Theme.of(context).copyWith(
@@ -73,94 +76,46 @@ class _MyAppState extends State<MyApp> {
                 ),
               ),
             ],
+
+            bottom: TabBar(
+              indicatorColor: Colors.white,
+              tabs: [
+                Tab(text: 'Home', icon: Icon(Icons.home)),
+                Tab(text: 'Status', icon: Icon(Icons.sensors)),
+                Tab(text: 'Cartes', icon: Icon(Icons.location_on_outlined )),
+              ],
+            ),
           ),
-          body: Column(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            mainAxisSize: MainAxisSize.max,
-            children: <Widget>[
-              Align(
-                alignment: Alignment.topCenter,
-                child: Image.asset(
-                  "assets/images/logo.PNG",
-                  height: 170,
-                ),
-              ),
-              Container(
-                  margin: EdgeInsets.all(25),
-                  child: FlatButton(
-                      child: Text(
-                        'Save Mode',
-                        style: TextStyle(fontSize: 25.0),
-                      ),
-                      color: Colors.lightGreen,
-                      textColor: Colors.white,
-                      onPressed: () {})),
-              Container(
-
-                  alignment: Alignment.topLeft,
-                  child: Text(
-                    "  Informations:",
-                    style: TextStyle(
-                        color: Colors.white,
-                        decoration: TextDecoration.underline,
-                        fontWeight: FontWeight.bold,
-                        fontSize: 25),
-                  )),
-              FutureBuilder(
-
-                future: data,
-                builder: (BuildContext context, AsyncSnapshot snapshot){
-                  if (snapshot.hasData){
-                    return Container(
-                        height: 100.0,
-                        width: 300.0,
-                        color: Colors.transparent,
-
-                        child: Container(
-                          decoration: BoxDecoration(
-                              color: Colors.white,
-                              borderRadius:
-                              BorderRadius.all(Radius.circular(10.0))),
-                          child:  new Text(
-                            "Last time online:"+_time+"\n\Status: online\n",
-                            style: TextStyle(
-                                fontSize: 20,
-                                color: Colors.black,
-                                fontWeight: FontWeight.bold),
-                            textAlign: TextAlign.left,
+          body: TabBarView(
+            children: [
+              Center(child:
+              Column(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                mainAxisSize: MainAxisSize.max,
+                children: <Widget>[
+                 Image.asset('assets/images/heylo.PNG'),
+                  Container(
+                      margin: EdgeInsets.all(25),
+                      child: FlatButton(
+                          child: Text(
+                            'Save Mode',
+                            style: TextStyle(fontSize: 25.0),
                           ),
-                        ));
-                  }
-                  else if (snapshot.hasError){
-                    return Text(snapshot.error.toString());
-                  }
-                  else {
-                    return Center(
-                      child: CircularProgressIndicator(color: Colors.white,)
-                    );
-                  }
-                },
-              ),
-              Container(
-                alignment: Alignment.bottomCenter,
-                child: FloatingActionButton.extended(
-                  backgroundColor: Colors.green,
-                  foregroundColor: Colors.white,
-                  onPressed: () {
-                    // Respond to button press
-                  },
-                  icon: Icon(Icons.assistant_navigation),
-                  label: Text('live location', style: TextStyle(fontWeight: FontWeight.w900,
-                      fontSize: 25
-                      )),
+                          color: Colors.lightGreen,
+                          textColor: Colors.white,
+                          onPressed: () {})
+                  ),
+                ]
+          ),),
 
 
 
-                ),
-              ),
+              Center(child: Text('CATS')),
+              Center(child: Text('BIRDS')),
             ],
-          )),
+          ),
+        ),
+      ),
     );
-
   }
 }
