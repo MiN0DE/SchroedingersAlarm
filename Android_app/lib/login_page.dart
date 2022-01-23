@@ -24,11 +24,11 @@ class _LoginPageState extends State<LoginPage> {
         child: Column(
           children: [
             Container(
-              padding: EdgeInsets.symmetric(vertical: 50),
+              padding: EdgeInsets.symmetric(vertical: 10),
               child: Image.asset(
-                'assets/images/profile.png',
-                height: 200,
-                width: 200,
+                'assets/images/heylo.PNG',
+                height: 400,
+                width: 390,
               ),
             ),
             Expanded(
@@ -40,18 +40,19 @@ class _LoginPageState extends State<LoginPage> {
                     borderRadius: BorderRadius.only(
                         topLeft: Radius.circular(35),
                         topRight: Radius.circular(35))),
-                child: Column(
+                child: ListView(
                   children: [
                     SizedBox(
-                      height: 50,
+                      height: 18,
                     ),
                     Text(
-                      'Wilkommen',
+                      'Bitte tragen Sie Ihre \n IMEI und Pin Code ein',
                       style:
-                          TextStyle(fontSize: 32, fontWeight: FontWeight.bold),
+                          TextStyle(fontSize: 25),
+                        textAlign: TextAlign.center,
                     ),
                     SizedBox(
-                      height: 16,
+                      height: 32,
                     ),
                     TextField(
                       controller: emailController,
