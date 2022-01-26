@@ -10,6 +10,7 @@ import MapKit
 import ActivityIndicatorView
 
 
+
 struct ContentView: View {
     @State var loading = true
     @State var showWebserver: Bool = false
@@ -18,6 +19,9 @@ struct ContentView: View {
     @State var car: String = ""
     @State var deviceID: String = ""
     @State var showGPS: Bool = false
+    
+    @State var lockBtn: Bool = false
+    
     
 //hardcoded Koordinaten - TODO!
     @State var region = MKCoordinateRegion(
@@ -32,7 +36,16 @@ struct ContentView: View {
         NavigationView {
             VStack{
                 Spacer()
-                HelloView()
+                //Save-Btn
+                Button(action: {
+                    self.lockBtn.toggle()
+                }, label: {
+                LockBtn(active: lockBtn)
+                })
+                .padding(.bottom)
+                
+                //next
+                CopyrightView()
                 HStack{
                     Spacer()
                 }
@@ -136,20 +149,30 @@ struct ContentView: View {
 
 
 
-struct HelloView: View {
+struct CopyrightView: View {
     var body: some View {
+        VStack{
+        
+      
+            //Copyright
             Text("Schrödingers Alarm©")
             .font(.system(size: 18, weight: .light, design: .default))
              .foregroundColor(Color(red: 100/255, green: 255/255, blue: 255/255))
              .padding()
+        }
     }
 }
+    
+
 
 
 //Vorschau Funktion
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .preferredColorScheme(.dark)
     }
 }
 }
+
+
