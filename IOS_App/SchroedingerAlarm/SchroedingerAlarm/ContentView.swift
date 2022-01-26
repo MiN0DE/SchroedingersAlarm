@@ -91,7 +91,7 @@ struct ContentView: View {
                     .multilineTextAlignment(.center)
                     .cornerRadius(22)
                 Button(action: {
-                    print("Gerät hinzugefügt")
+                    addDevice.toggle()
                 }) {
                     Text("Los geht´s!")
                         .padding(13)
@@ -99,6 +99,7 @@ struct ContentView: View {
                         .foregroundColor(.white)
                         .background(.secondary)
                         .cornerRadius(22)
+                        
                 }
                 }
             }
