@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_login_ui/login_page.dart';
 import 'package:http/http.dart' as http;
+import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'circulation.dart';
+import 'map.dart';
 import 'dart:convert';
+import 'dart:async';
 
 
 
@@ -18,21 +21,26 @@ class _MyAppState extends State<MyApp> {
   late String _latitude ="";
   late String _longitude = "";
   late Future<bool> data ;
+  static const LatLng _center = const LatLng(45.521563, -122.677433);
   bool isConn = false;
   Future<bool> getdata() async{
     http.Response response = await http.get(Uri.http('retrorbit.spdns.de', '/provide_Data.php'));
 
     dynamic datafromserver = json.decode(response.body);
     _time = datafromserver["Time"];
-    _latitude =datafromserver ["Latitude"];
-    _longitude = datafromserver["Longitude"];
+    _latitude =datafromserver ["Latitude"] as String;
+    _longitude = datafromserver["Longitude"] as String;
+
 
     return true ;
   }
+
+
   @override
   void initState() {
     data = getdata();
     super.initState();
+
   }
   @override
   Widget build(BuildContext context) {
@@ -171,7 +179,8 @@ class _MyAppState extends State<MyApp> {
                     }
                   },
                 ),],),),
-              Center(child: Text('BIRDS')),
+              Center(child: SimpleMap(139.654321,-37.123456)
+              )
             ],
           ),
         ),
