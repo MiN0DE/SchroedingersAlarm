@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A37137E27A1B8560076BCDB /* LockBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A37137D27A1B8560076BCDB /* LockBtn.swift */; };
+		1A37138027A1CC9C0076BCDB /* ConditionalModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A37137F27A1CC9C0076BCDB /* ConditionalModifier.swift */; };
 		1A50CBA3278884910067EC65 /* SchroedingerAlarmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A50CBA2278884910067EC65 /* SchroedingerAlarmApp.swift */; };
 		1A50CBA5278884910067EC65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A50CBA4278884910067EC65 /* ContentView.swift */; };
 		1A50CBA7278884920067EC65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A50CBA6278884920067EC65 /* Assets.xcassets */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A37137D27A1B8560076BCDB /* LockBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockBtn.swift; sourceTree = "<group>"; };
+		1A37137F27A1CC9C0076BCDB /* ConditionalModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalModifier.swift; sourceTree = "<group>"; };
 		1A50CB9F278884910067EC65 /* SchroedingerAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchroedingerAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A50CBA2278884910067EC65 /* SchroedingerAlarmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchroedingerAlarmApp.swift; sourceTree = "<group>"; };
 		1A50CBA4278884910067EC65 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -100,6 +104,8 @@
 				1A50CBA4278884910067EC65 /* ContentView.swift */,
 				1A50CBA6278884920067EC65 /* Assets.xcassets */,
 				1A50CBA8278884920067EC65 /* Preview Content */,
+				1A37137D27A1B8560076BCDB /* LockBtn.swift */,
+				1A37137F27A1CC9C0076BCDB /* ConditionalModifier.swift */,
 			);
 			path = SchroedingerAlarm;
 			sourceTree = "<group>";
@@ -265,8 +271,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A37137E27A1B8560076BCDB /* LockBtn.swift in Sources */,
 				1A50CBA5278884910067EC65 /* ContentView.swift in Sources */,
 				1A50CBA3278884910067EC65 /* SchroedingerAlarmApp.swift in Sources */,
+				1A37138027A1CC9C0076BCDB /* ConditionalModifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
