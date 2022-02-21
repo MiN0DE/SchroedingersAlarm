@@ -49,7 +49,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.4}Grundsätzliche Überlegungen}{16}{subsection.2.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.5}Testporgramme}{17}{subsection.2.2.5}%
+\contentsline {subsection}{\numberline {2.2.5}Testprogramme}{18}{subsection.2.2.5}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.6}Erstellen der PHP-Skripte zum Empfangen und Bereitstellen von Daten}{18}{subsection.2.2.6}%
 \defcounter {refsection}{0}\relax 
