@@ -1,0 +1,28 @@
+<?php
+$filename = "allowed_devices.txt";	//Datei mit zulässigen Geräten öffnen
+$all_devices = file_get_contents($filename);
+
+if (isset($_POST["device"]) && $_POST["device"] !== "") {
+	$device_id = $_POST["device"];
+}
+
+if (str_contains($all_devices, "$device_id")) {
+	// ---------------------------- Nutz-Daten verarbeiten -----------------------------------------------
+	if (isset($_POST["keypair2_public"]) && $_POST["keypair2_public"] !== "") {		//check, ob tatsächlich Werte enthalten sind
+		$app_key = $_POST["keypair2_public"];
+	}
+	else {
+		goto Fehler;
+	}
+	
+	echo "$app_key";
+	// ---------------- aktuellen key in .txt Datei auf Server speichern----------------------------
+	file_put_contents("app_key.txt", $app_key);	//in Datei zurückschreiben
+
+} else {
+	Fehler:
+	echo "Fehler";
+}
+
+
+?>

@@ -1,0 +1,8 @@
+<?php
+
+$koordinaten = file_get_contents("Koordinaten.txt");
+//$datenpaket = file_get_contents("Datenpaket.txt");
+echo $koordinaten;
+//echo $datenpaket;
+
+?>

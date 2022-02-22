@@ -1,0 +1,59 @@
+<?php
+
+$Nutzdaten = file_get_contents("Koordinaten.txt"); //neue Datei oder vorhandene öffnen
+
+echo "$Nutzdaten"."<br>";
+
+$cipher_method = "aes-192-ctr";
+$AES_key = openssl_random_pseudo_bytes(192);
+//echo base64_encode($AES_key)."<br>";
+
+//Verschlüsselung der Nutzdaten-----------------------------------------
+if (in_array($cipher_method, openssl_get_cipher_methods()))
+{
+    $ivlen = openssl_cipher_iv_length($cipher_method);
+    $iv = openssl_random_pseudo_bytes($ivlen);
+    $encrypted_Nutzdaten = openssl_encrypt($Nutzdaten, $cipher_method, $AES_key, $options=0, $iv);
+    //echo "$encrypted_Nutzdaten"."<br>";
+    // decrypt passiert dann in APP_____________________________________
+    //$original_plaintext = openssl_decrypt($encrypted_Nutzdaten, $cipher_method, $AES_key, $options=0, $iv);
+    //echo "$original_plaintext";//_______________________________________
+}
+//-------------------------------------------------------------------------------------------------------------
+
+//Verschlüsselung des AES-keys------------------------------------------
+$keypair1 = sodium_crypto_box_keypair();
+$keypair1_public = sodium_crypto_box_publickey($keypair1);
+$keypair1_secret = sodium_crypto_box_secretkey($keypair1);
+$nonce = random_bytes(SODIUM_CRYPTO_BOX_NONCEBYTES);
+
+// keypair 2 muss in App passieren -------------------------------------
+$keypair2 = sodium_crypto_box_keypair();
+$keypair2_public = sodium_crypto_box_publickey($keypair2);
+$keypair2_secret = sodium_crypto_box_secretkey($keypair2);
+
+// ---------------------------------------------------------------------
+
+$encryption_key = sodium_crypto_box_keypair_from_secretkey_and_publickey($keypair1_secret, $keypair2_public);
+$encrypted_AES_key = sodium_crypto_box($AES_key, $nonce, $encryption_key);
+//echo "$encrypted_AES_key"."<br>";
+
+// nur zur Info, passiert dann in APP-----------------------------------
+$decryption_key = sodium_crypto_box_keypair_from_secretkey_and_publickey($keypair2_secret, $keypair1_public);
+$decrypted = sodium_crypto_box_open($encrypted_AES_key, $nonce, $decryption_key);
+//echo base64_encode($decrypted) . "\n";
+
+$datenpaket = array(
+	"key1pub" => base64_encode($keypair1_public),	//base64 Codierung notwendig, da der String sonst nicht im JSON verarbeitet werden kann
+	"nonce" => base64_encode($nonce),
+	"AES_key" => base64_encode($encrypted_AES_key),
+	"AES_iv" => base64_encode($iv),
+	"Nutzdaten" => $encrypted_Nutzdaten
+);
+$json_data=json_encode($datenpaket);
+echo "$json_data";
+// ---------------- aktuelle/neue Daten in .txt Datei auf Server speichern----------------------------
+file_put_contents("Datenpaket.txt", $json_data);	// Datei mit neuen Daten überschreiben
+
+
+?>
