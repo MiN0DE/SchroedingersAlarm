@@ -1,0 +1,42 @@
+<?php
+$filename = "allowed_devices.txt";	//Datei mit zulässigen Geräten öffnen
+$dateiname = "Koordinaten.txt";	//für temporären Speicher, um direkt wieder bereitzustellen
+$all_devices = file_get_contents($filename);
+
+
+if (isset($_POST["device"]) && $_POST["device"] !== "") {
+	$device_id = $_POST["device"];
+}
+
+if (str_contains($all_devices, "$device_id")) {
+	// ---------------------------- Nutz-Daten verarbeiten -----------------------------------------------
+	if (isset($_POST["Latitude"]) && $_POST["Latitude"] !== "") {		//check, ob tatsächlich Werte enthalten sind
+		$Lat = $_POST["Latitude"];
+	}
+	else {
+		goto Fehler;
+	}
+	if (isset($_POST["Longitude"]) && $_POST["Longitude"] !== "") {		//check, ob tatsächlich Werte enthalten sind
+		$Long = $_POST["Longitude"];
+	}
+	else {
+		goto Fehler;
+	}
+	$datum = date('d.m.Y H:i:s', time());
+	$koor = array(
+		"Latitude" => $Lat,
+		"Longitude" => $Long,
+		"Time" => $datum
+	);
+	$json_koor=json_encode($koor, JSON_NUMERIC_CHECK);
+	//echo "$json_koor";		
+	// ---------------- aktuelle/neue Daten in .txt Datei auf Server speichern----------------------------
+	file_put_contents($dateiname, $json_koor);	// Datei mit neuen Daten überschreiben
+
+} else {
+	Fehler:
+	echo "Fehler";
+}
+
+
+?>
