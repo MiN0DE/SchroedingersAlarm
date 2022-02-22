@@ -1,0 +1,15 @@
+@Article{RolfDraehter2019,
+  author  = {Rolf Drähter, Holger Koschek und Carsten Sahling},
+  journal = {O´Reillys Taschenbibliothek},
+  title   = {Scrum kurz & gut},
+  year    = {2019},
+}
+
+@TechReport{JosefineLepzien,
+  author      = {Josefine Lepzien , Michael Lewerenz},
+  institution = {uni-rostock},
+  title       = {Persona-Methode Eine Methode zur Illustrierung von Bildungsbedarfen},
+  url         = {https://www.uni-rostock.de/storages/uni-rostock/UniHome/Weiterbildung/KOSMOS/Persona.pdf},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}

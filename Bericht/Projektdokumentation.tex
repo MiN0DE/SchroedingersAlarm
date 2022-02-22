@@ -1,0 +1,55 @@
+\documentclass[11pt,a4paper,ngerman]{report}
+\usepackage{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{subfig}
+\usepackage{csquotes}
+\usepackage[backend=bibtex,natbib=true,style=alphabetic]{biblatex}
+\usepackage{hyperref}
+
+\addbibresource{Quellen.bib}
+\usepackage{siunitx}  
+\sisetup{locale = DE}  
+
+
+\date{\today}
+\title{"Schrödingers Alarm"\\ Projektdokumentation}
+\author{Lucas Hanisch \and Seifeddine Mhiri \\ Paul Krause  \\  Monique Golnik \\ \\Master Informations- und Kommunikationstechnik WS 2021/22}
+
+\begin{document}
+	\maketitle
+	\tableofcontents
+	
+	\chapter{Start}
+	
+	%Wer sind wir
+	%warum dieses Projekt?
+	%Hütchen - Spiel (Post-It Ideen)
+	%Design-Thinking
+	
+	
+	\input{Zielsetzung.tex}
+	\input{Ideensammlung.tex}
+	\input{Projektmanagement.tex}	
+	\input{Konzept.tex}	
+	\chapter{Entwicklung}
+	\input{Entwicklung_Arduino.tex}
+	\input{Entwicklung_Webserver.tex}	
+	\input{Entwicklung_Android.tex}		
+	\input{Entwicklung_iOS.tex}	
+	\chapter{Produkt}
+	\input{Produkt.tex}
+	\chapter{Rück- und Ausblick}
+	\input{Rück_Ausblick}
+	
+	\addcontentsline{toc}{chapter}{Abbildungsverzeichnis}	
+	\listoffigures
+	%\addcontentsline{toc}{chapter}{Tabellenverzeichnis}	
+	%\listoftables
+	%\printbibliography[heading=bibintoc]
+	\printbibliography[heading=bibintoc, title={Quellenverzeichnis}]
+\end{document}
