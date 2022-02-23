@@ -1,10 +1,39 @@
-\section{Rück- und Ausblick}
-Soll/Ist Vergleich
-Lessons Learned (User Umfrage nutzen)
-\subsection{Zukünftige Entwicklung}
+
+Ein kurzer Rückblick soll Revue passieren lassen, was wir anfänglich erreichen wollten und wie weit wir gekommen sind. 
+\\
+Zuerst sollte festgehalten werden, dass wir uns zu Beginn trotz unserer vielen Ideen für ein Basisprodukt entschieden haben, da unsere Erfahrung ausreicht, um einschätzen zu können, dass die Bearbeitungszeit knapp ist, Lieferanten lange Lieferzeiten aufrufen und auch ein Lockdown nicht auszuschließen war. 
+
+\begin{center}
+	\textit{Think big, build small!} \cite{Full2022}
+\end{center}
+
+Dennoch haben wir den Großteil geschafft, wie im Ausschnitt in Abbildung \ref{trello} unseres aktuellen Trello-Boards  zu erkennen ist.
+
+\begin{figure} [H]
+	\begin{center}
+		\includegraphics[width=1\textwidth]{Bilder/Rueckblick_Vergleich.png}
+		\caption{Abschlussstand Trello-Board}
+		\label{trello}
+	\end{center}
+\end{figure}
+
+
+
+\section{Lessons Learned}
+Es ist wichtig dass das Minimum Viable Product einen Nutzen bringt und einfach in seiner Bedienung ist (zit hanna)
+Durch Feedback von unseren Testern konnten wir herauskristallisieren, dass unsere Apps durch ihr derzeitiges unterschiedliches Design irreführend sind - Anmerkung: ein einheitliches Design an sich war uns bis hier nicht wichtig, da hier tatsächlich der Lernerfolg und -spass an erster Stelle stand. Dennoch ist dies ein ernstzunehmender Punkt.
+\\
+Desweiteren wurde sich gewünscht, dass kleine User Manuals für beispielsweise die Systemerweiterung in Form von Kurzvideos bereitgestellt werden - so muss kein Papier verschwendet werden, und bei notwendigen Informations-Updates oder generellen Neuerungen kann dies schnell und einfach digital passieren. Ebenfalls wäre ein Routentracking vorteilhaft, da derzeit immer nur der letzte Standort abgerufen werden kann - so könnte das gestohlene Auto besser nachverfolgt werden. 
+\\
+Nach so einigen Verbesserungsvorschlägen möchten wir natürlich auch noch festhalten, dass besonders die offene und so leicht erweiterbare Bauweise, die erste ergänzende Idee mit der Sirene, der Geofancing- Mechanismus sowie dass es Apps für beide Betriebssysteme gibt, für super empfunden wurden.
+
+
+
+\section{Zukünftige Entwicklung}
+
 \textbf{Arduino:}Als Erweiterungen für den Arduino sollen in Zukunft noch eine Alarmsirene vom Typen BSE128 verbaut werden und für die Standorterkennung noch die Google API zur beseren Lokalisierung genutzen werden. 
 Für die Sirene muss das Gesamtsystem noch dahingehend erweitert werden, dass eine Kommunikation zum Arduino hin möglich wird. Auf dem Arduino muss hierfür noch realisiert werden, dass der Rückgabewert vom Server abgespeichert wird und in regelmäßigen Abständen geprüft wird, dass sich das Gerät nicht aus dem vom Anwender definierten Bereich entfernt hat. Es muss also noch Geofencing ermöglicht werden, um zu erkennen wann die Sirene auslösen soll. Es ist aber auch eine einfache Lösung denkbar, bei der der Benutzer den Alarm aus der Entfernung selbst steuern muss bzw kann.
-
+\\
 Aus Hardware Sicht muss dann nur die Sirene mittels Transistorschaltung an den Arduino angeschlossen und mit Strom versorgt werden, damit der Arduino das Alarmsignal im Fall einer Entwendung geben kann. Die Schaltung dafür sieht wie folgt aus:
 \begin{figure} [H]
 	\begin{center}
@@ -14,7 +43,7 @@ Aus Hardware Sicht muss dann nur die Sirene mittels Transistorschaltung an den A
 	\end{center}
 \end{figure}
 Dabei kann die Sirene, da sie 12-24V Eingangsspannung akzeptiert, an die Stromversorgung des Arduinos mit angeschlossen werden. Es muss dafür jedoch eventuell die Akkuleistung ebenfalls erweitert werden. Dies muss jedoch erst noch getestet werden. 
-
+\\
 Die Sirene soll zukünftig durch eine einfache N-Channel Mosfet Schaltung gesteuert werden.
 Um den Google Standort Service effektiv verwenden zu können, ist die Erweiterung um einen WLAN Empfänger sinnvoll. Somit kann neben den Informationen, die durch GSM und GPS zur Verfügung stehen, auch die lokalen WLAN-Netze zur Standortermittlung genutzt werden. Dies erhöht weiter die Genauigkeit kann aber theoretisch auch wegfallen. Die Verwendung der API ist jedoch kostenpflichtig und dementsprechend ist das Geschäftskonzept eventuell weiter zu überdenken. Eine mögliche Lösung hierfür wäre ein monatliches Bezahlkonzept, über das man je nach Bedarf die API Standorterkennung hinzu buchen kann.
 
@@ -38,12 +67,30 @@ Ein weiteres Feature, das in Zukunft realisiert werden soll, ist eine Kommunikat
 \\
 \textit{MQTT als redundanten Übertragungsweg einrichten}
 Um nicht nur den bisherigen Übertragungsweg über den HTTP-Server nutzen zu können und somit anfällig für Systemausfälle zu sein, soll ein zweiter, redundanter Übertragungsweg mit Hilfe des MQTT-Protokolls errichtet werden. Hierfür ist als erstes das Bereitstellen eines eigenen MQTT-Brokers erforderlich, um direkt unabhängig von Dritten zu sein. Auch muss ein MQTT-Topic definiert werden, in welchem die Kommunikation stattfinden soll. Im nächsten Schritt muss auf dem Arduino ein entsprechendes Skript programmiert werden, mit welchem die Koordinaten mittels PUBLISH zum MQTT-Broker übermittelt werden können. Dieses muss dann entweder parallel zum bisherigen Skript ausgeführt werden oder es werden beide in einem neuen Skript vereinigt.
-
- Anschließend muss in den beiden Apps ein MQTT-SUBSCRIBE implementiert werden, um die vom Arduino veröffentlichten Daten zu erhalten. Auch dies muss parallel zur Datenabfrage vom Webserver geschehen. Zusätzlich soll in den Apps dann ein Abgleich beider Daten (HTTP und MQTT) implementiert werden. Sind beide Daten gleich werden die neuen Koordinaten übernommen. Für den anderen Fall, dass die beiden Datenpakete unterschiedlich sind, muss noch überprüft werden, welche Daten dann gespeichert werden. 
- \\
-\textbf{Android} 
-Im Großen und Ganzen war das Projekt eine neue Erfahrung, sowohl das Zusammenarbeiten oder auch die neuen technischen Kenntnisse, die man sich im erlernt hat.
-Was man bis jetzt erreicht hat, ist ein großer Schritt. Die App ist designtechnisch sehr fortgeschritten. Die Technik dahinter funktioniert. Version 1 hat alle mindesten Anforderungen erfüllt.
+\\
+Anschließend muss in den beiden Apps ein MQTT-SUBSCRIBE implementiert werden, um die vom Arduino veröffentlichten Daten zu erhalten. Auch dies muss parallel zur Datenabfrage vom Webserver geschehen. Zusätzlich soll in den Apps dann ein Abgleich beider Daten (HTTP und MQTT) implementiert werden. Sind beide Daten gleich werden die neuen Koordinaten übernommen. Für den anderen Fall, dass die beiden Datenpakete unterschiedlich sind, muss noch überprüft werden, welche Daten dann gespeichert werden. 
+\\
+\textbf{Apps} 
+%Im Großen und Ganzen war das Projekt eine neue Erfahrung, sowohl das Zusammenarbeiten oder auch die neuen technischen Kenntnisse, die man sich im erlernt hat.
+%Was man bis jetzt erreicht hat, ist ein großer Schritt.
+Die App ist designtechnisch sehr fortgeschritten. Die Technik dahinter funktioniert. Version 1 hat alle mindesten Anforderungen erfüllt.
 Für den nächsten Versionen sollten mehr Möglichkeiten eine Datenbank Einbindung mit "Firebase", um die Datenbankverwaltung besser zu verwalten. Im Design der App konnten Verbesserungen durchgeführt werden..
 \\
-\textbf{iOS} Moni
+
+\textit{Routentracker}
+\\
+\textit{Apple-Watch Kommunikation}
+\\
+\textit{Eine App - Mehrere Fahrzeuge}
+Es ist sinnvoll, dass wenn man von mehreren Alarmsystemen in Fahrzeugen ausgeht, dass die App gesagt bekommt, welches Gerät der Nutzer Zuhause besitzt - dahei sollte es eine Konfigurationsmöglichkeit innerhalb der App für das Alarmsystemgerät geben. Des weiteren wäre es auch sinnvoll, dass wenn beispielsweise eine Familie mit mehreren Systemen und unterschiedlichen Fahrzeugen diese in einer App sich gebündelt anzeigen lassen könnte -> da wir derzeit nur ein System besitzen, wurde es hier ersteinmal als Placeholder codiert.
+\begin{figure} [H]
+	\begin{center}
+		\includegraphics[width=1\textwidth]{Bilder/iOS_camunda.png}
+		\caption{Navigationstab \textit{Fahrzeug hinzufügen}}
+		\label{add}
+	\end{center}
+\end{figure}
+
+\section{Fazit}
+Im Großen und Ganzen war das Projekt eine neue Erfahrung, sowohl das Zusammenarbeiten oder auch die neuen technischen Kenntnisse, die man sich im erlernt hat.
+Was man bis jetzt erreicht hat, ist ein großer Schritt.

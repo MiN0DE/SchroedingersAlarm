@@ -1,21 +1,22 @@
-\section{Einleitung}
+\section{Android}
+
 In diesem Kapitel wird das Konzept der mobilen Anwendung entwickelt. 
 Das Kapitel enthält wesentliche Informationen und Schritte, die für die Entwicklung für eine Android-App erforderlich sind. 
 Als Erstens wird das Konzept genau, was man in einer App-Entwicklung betrachten muss. Zweitens werden die Grundlagen vorgestellt.
 Dann basierend auf dem Konzept des Projekts wird die Implementierung beschrieben.
-\section{Mobile Apps}
+\subsection{Mobile Apps}
 Mobile Anwendungen werden unter Berücksichtigung von Faktoren wie Benutzerfreundlichkeit, Zugänglichkeit, Handbuch, Design, menschlicher Schnittstelle und Interaktion mit der Benutzererfahrung entwickelt. 
 Es werden dabei unter anderem Features und Services genannt, die einen echten Mehrwert bieten und lassen die Anwendung attraktiv und innovativ erscheinen.
 Über das volle Potenzial der App aufzudecken und konzeptionell zu benennen, ist wichtig, mögliche zukünftige App-Eigenschaften und -Funktionen über den Prototyp hinaus vorzuschlagen.\\
 Was bei der Umsetzung der mobilen Applikation betrachten werden sollte:
 \begin{itemize}
-\item[*] Die Brauchbarkeit und Nutzbarkeit 
-\item[*] Effizienz und Effektivität
-\item[*] Zuverlässigkeit
-\item[*] Saubere Interaktion
-\item[*] Dynamik und Flexibilität
+\item Die Brauchbarkeit und Nutzbarkeit 
+\item Effizienz und Effektivität
+\item Zuverlässigkeit
+\item Saubere Interaktion
+\item Dynamik und Flexibilität
 \end{itemize}
-\section{Grundlagen}
+
 \subsection{Entwicklungsumgebung: Android Studio}
 Android ist das Betriebssystem und die Softwareplattform für mobile Geräte wie Smartphones
 Telefone, Uhren, Fernseher oder Schnittstellen zur Kommunikation mit Fahrzeugen.
@@ -43,22 +44,22 @@ Die Eigenschaften von Dart sind:
 \item Eine klare und saubere Syntax
 \item Hat unglaubliche Tools zur Unterstützung der App-Entwicklung
 \end{itemize}
-\section{Konzept: SchrödingerSAlarm}
+\subsection{Konzept: SchrödingerSAlarm}
 Beim Projekt ist die Mobile Android app ein Wichtig Bauteil des Systems.
 die Mobile App soll wie eine gewöhnliche Android App. Die App soll für jedes Android Smartphone kompatibel sein. Um mehr die Funktionalität der App wird durch die beiden Abbildungen dargestellt:\\
 \textbf{Standard Fall:} Die App ist mit dem Webserver verbunden. Alle Informationen. die vom Webserver kommen, werden in der App angezeigt. Die Koordinaten sollen den Standort des Automobilfahrzeug auf einer Karte in der App angezeigt werden (Abbildung ..).
-\begin{figure}[t]
+\begin{figure}[H]
             \centering
             \includegraphics[width=1\textwidth]{Bilder/StandardFall.PNG}
     \end{figure}
 \\\textbf{Alarm Fall:} Im Falle das der Standort des Automobils sich bewegt und das Standort des Smartphones konstant ist, wird ein Alarm auf dem Handy ausgelöst und der Nutzer bekommt eine Push-Benachrichtigung(Abbildung ..).
-     \begin{figure}[t]
+     \begin{figure}[H]
             \centering
             \includegraphics[width=1\textwidth]{Bilder/AlarmFall.PNG}
     \end{figure}
 	
-\section{Implementierung}
-\subsection{Flutter Funktionalität}
+\subsection{Implementierung}
+\subsubsection{Flutter Funktionalität}
 Flutter ist sehr einfach zu verstehen und verkürzt die Lernkurve erheblich. Die Grundidee lautet: "Alles ist ein Widget". Es ist dem Entwickler völlig selbst uberlassen wie er sein Projekt
 strukturieren und hinsichtlich Architektur- und Entwurfsmuster logisch aufbauen möchte. Der Einstiegspunkt zu Flutter ist die main.dart-Datei oder die zentrale main()-Methode. Von dort aus ist es möglich, sich gegenseitig zu verschachteln und zu importieren. 
 Die Entwicklung von Flutter beinhaltet hauptsächlich nur Widgets, weil alles hineingeschrieben wird.
@@ -92,7 +93,7 @@ Die Umsetzung in Flutter ist simpel gestellt. Ein Widget wird als gesamte Seite 
 Wie vorher beschrieben ist, wird horizontale aufgeteilt. Der obere Teil ist das importierte Bild vom LOGO und der untere Teil von den Eingabefeldern. 
 Diese Aufteilung wird mit einem "Column" Widgets definiert. Der unter Teil wird auch in viele Widgets aufgeteilt. 
 Darunter sind zwei Eingabefeldern und der "Einloggen" Button.
- \begin{figure}[t]
+ \begin{figure}[H]
             \centering
             \includegraphics[width=0.5\textwidth]{Bilder/LoginIn.PNG}
     \end{figure}
@@ -111,7 +112,7 @@ Die Koordinaten, die von dem Webserver kommen, werden dann in einem Marker in de
 Dazu kommt der aktuelle Standort des Smartphones über den GPS in einem andren Marker angezeigt.\\\\
 Falls die Koordinaten vom Webserver weit entfernt von den interpretierten Koordinaten vom GPS Smartphones ist, bekommt man eine Push-Benachrichtigung. Bei der Umrechnung werden Longtitude und Latitude von beiden Koordinaten abgezogen und den Beitrag von den beiden Werten gerechnet. 
 Falls einer der beiden Werten höher als der festgelegten Wert ist, wird die App eine Push-Benachrichtigung erstellt.
- 	\begin{figure}[t]
+ 	\begin{figure}[H]
    \centering
             \includegraphics[width=0.5\textwidth]{Bilder/home.PNG}
 			\includegraphics[width=0.5\textwidth]{Bilder/status.PNG}
