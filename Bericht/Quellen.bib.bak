@@ -12,4 +12,12 @@
   url         = {https://www.uni-rostock.de/storages/uni-rostock/UniHome/Weiterbildung/KOSMOS/Persona.pdf},
 }
 
+@Misc{Salind,
+  author    = {Salind GPS},
+  title     = {SALIND GPS-Tracker Auto, Motorrad, Fahrzeuge und LKW´s mit Magnet, etwa 40 Tage Akkulaufzeit (bis zu 90 Tage im Standby Modus)},
+  owner     = {Salind GPS},
+  timestamp = {22.02.2022},
+  url       = {https://www.amazon.de/GPS-Tracker-Motorrad-Fahrzeuge-Akkulaufzeit-Standby/dp/B07TV4W8H4/ref=sr_1_8?keywords=gps auto tracker&qid=1645548524&sprefix=gps aut,aps,97&sr=8-8},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
