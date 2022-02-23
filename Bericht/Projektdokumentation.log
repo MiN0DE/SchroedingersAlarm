@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.12)  22 FEB 2022 23:36
-=======
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12.10) (preloaded format=pdflatex 2022.1.8)  23 FEB 2022 21:56
->>>>>>> refs/remotes/origin/main
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.12)  23 FEB 2022 23:07
 entering extended mode
 **./Projektdokumentation.tex
 (Projektdokumentation.tex
@@ -543,167 +539,25 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 (C:\Users\Seifeddine Mhiri\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\bib
 latex.cfg
 File: biblatex.cfg 
-<<<<<<< HEAD
 ))
-(C:\Users\Seifeddine Mhiri\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyp
-erref.sty
-Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
-
-(C:\Users\Seifeddine Mhiri\AppData\Local\Programs\MiKTeX\tex/generic/kvdefineke
-ys\kvdefinekeys.sty
-Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-)
-(C:\Users\Seifeddine Mhiri\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\
-pdfescape.sty
-Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-)
-(C:\Users\Seifeddine Mhiri\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hyco
-lor.sty
-Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-)
-(C:\Users\Seifeddine Mhiri\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\
-letltxmacro.sty
-Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
-)
-(C:\Users\Seifeddine Mhiri\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxh
-ook.sty
-Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
-)
-\@linkdim=\dimen159
-\Hy@linkcounter=\count413
-\Hy@pagecounter=\count414
-
-(C:\Users\Seifeddine Mhiri\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1
-enc.def
-File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
-Now handling font encoding PD1 ...
-... no UTF-8 mapping file for font encoding PD1
-)
-(C:\Users\Seifeddine Mhiri\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyp
-erref-langpatches.def
-File: hyperref-langpatches.def 2021-06-07 v7.00m Hyperref: patches for babel la
-nguages
-)
-(C:\Users\Seifeddine Mhiri\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\in
-tcalc.sty
-Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
-)
-(C:\Users\Seifeddine Mhiri\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\e
-texcmds.sty
-Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
-)
-\Hy@SavedSpaceFactor=\count415
-
-(C:\Users\Seifeddine Mhiri\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pue
-nc.def
-File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
-Now handling font encoding PU ...
-... no UTF-8 mapping file for font encoding PU
-)
-Package hyperref Info: Hyper figures OFF on input line 4192.
-Package hyperref Info: Link nesting OFF on input line 4197.
-Package hyperref Info: Hyper index ON on input line 4200.
-Package hyperref Info: Plain pages OFF on input line 4207.
-Package hyperref Info: Backreferencing OFF on input line 4212.
-Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count416
-LaTeX Info: Redefining \url on input line 4804.
-\XeTeXLinkMargin=\dimen160
-
-(C:\Users\Seifeddine Mhiri\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bit
-set.sty
-Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
-
-(C:\Users\Seifeddine Mhiri\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc
-\bigintcalc.sty
-Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
-)
-))
-\Fld@menulength=\count417
-\Field@Width=\dimen161
-\Fld@charsize=\dimen162
-Package hyperref Info: Hyper figures OFF on input line 6076.
-Package hyperref Info: Link nesting OFF on input line 6081.
-Package hyperref Info: Hyper index ON on input line 6084.
-Package hyperref Info: backreferencing OFF on input line 6091.
-Package hyperref Info: Link coloring OFF on input line 6096.
-Package hyperref Info: Link coloring with OCG OFF on input line 6101.
-Package hyperref Info: PDF/A mode OFF on input line 6106.
-LaTeX Info: Redefining \ref on input line 6146.
-LaTeX Info: Redefining \pageref on input line 6150.
-
-(C:\Users\Seifeddine Mhiri\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegsh
-i-ltx.sty
-Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
-package with kernel methods
-)
-\Hy@abspage=\count418
-\c@Item=\count419
-\c@Hfootnote=\count420
-)
-Package hyperref Info: Driver (autodetected): hpdftex.
-
-(C:\Users\Seifeddine Mhiri\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpd
-ftex.def
-File: hpdftex.def 2021-06-07 v7.00m Hyperref driver for pdfTeX
-
-(C:\Users\Seifeddine Mhiri\AppData\Local\Programs\MiKTeX\tex/latex/base\atverye
-nd-ltx.sty
-Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
-e
-with kernel methods
-)
-\Fld@listcount=\count421
-\c@bookmark@seq@number=\count422
-
-(C:\Users\Seifeddine Mhiri\AppData\Local\Programs\MiKTeX\tex/latex/rerunfileche
-ck\rerunfilecheck.sty
-Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
-
-(C:\Users\Seifeddine Mhiri\AppData\Local\Programs\MiKTeX\tex/generic/uniquecoun
-ter\uniquecounter.sty
-Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
-)
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-86.
-)
-\Hy@SectionHShift=\skip79
-)
 (C:\Users\Seifeddine Mhiri\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siun
 itx.sty
 Package: siunitx 2022-02-15 v3.0.49 A comprehensive (SI) units package
-\l__siunitx_angle_tmp_dim=\dimen163
-\l__siunitx_angle_marker_box=\box54
-\l__siunitx_angle_unit_box=\box55
-\l__siunitx_compound_count_int=\count423
-=======
-)) (C:\Users\MiN0DE\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
-Package: siunitx 2021-12-03 v3.0.37 A comprehensive (SI) units package
 \l__siunitx_angle_tmp_dim=\dimen159
 \l__siunitx_angle_marker_box=\box54
 \l__siunitx_angle_unit_box=\box55
-\l__siunitx_compound_count_int=\count414
->>>>>>> refs/remotes/origin/main
+\l__siunitx_compound_count_int=\count413
 
 (C:\Users\Seifeddine Mhiri\AppData\Local\Programs\MiKTeX\tex/latex/translations
 \translations.sty
 Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
  (CN)
 )
-<<<<<<< HEAD
-\l__siunitx_number_exponent_fixed_int=\count424
-\l__siunitx_number_min_decimal_int=\count425
-\l__siunitx_number_min_integer_int=\count426
-\l__siunitx_number_round_precision_int=\count427
-\l__siunitx_number_group_minimum_int=\count428
-=======
-\l__siunitx_number_exponent_fixed_int=\count415
-\l__siunitx_number_min_decimal_int=\count416
-\l__siunitx_number_min_integer_int=\count417
-\l__siunitx_number_round_precision_int=\count418
-\l__siunitx_number_group_minimum_int=\count419
->>>>>>> refs/remotes/origin/main
+\l__siunitx_number_exponent_fixed_int=\count414
+\l__siunitx_number_min_decimal_int=\count415
+\l__siunitx_number_min_integer_int=\count416
+\l__siunitx_number_round_precision_int=\count417
+\l__siunitx_number_group_minimum_int=\count418
 \l__siunitx_table_tmp_box=\box56
 \l__siunitx_table_tmp_dim=\dimen160
 \l__siunitx_table_column_width_dim=\dimen161
@@ -711,19 +565,11 @@ Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
 \l__siunitx_table_decimal_box=\box58
 \l__siunitx_table_before_box=\box59
 \l__siunitx_table_after_box=\box60
-<<<<<<< HEAD
-\l__siunitx_table_before_dim=\dimen166
-\l__siunitx_table_carry_dim=\dimen167
-\l__siunitx_unit_tmp_int=\count429
-\l__siunitx_unit_position_int=\count430
-\l__siunitx_unit_total_int=\count431
-=======
 \l__siunitx_table_before_dim=\dimen162
 \l__siunitx_table_carry_dim=\dimen163
-\l__siunitx_unit_tmp_int=\count420
-\l__siunitx_unit_position_int=\count421
-\l__siunitx_unit_total_int=\count422
->>>>>>> refs/remotes/origin/main
+\l__siunitx_unit_tmp_int=\count419
+\l__siunitx_unit_position_int=\count420
+\l__siunitx_unit_total_int=\count421
 
 (C:\Users\Seifeddine Mhiri\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l
 3keys2e\l3keys2e.sty
@@ -731,31 +577,18 @@ Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
 l3.sty
 Package: expl3 2021-06-01 L3 programming layer (loader) 
 
-<<<<<<< HEAD
 (C:\Users\Seifeddine Mhiri\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3
 backend-pdftex.def
 File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count432
-=======
-(C:\Users\MiN0DE\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pd
-ftex.def
-File: l3backend-pdftex.def 2021-12-14 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count423
->>>>>>> refs/remotes/origin/main
+\l__color_backend_stack_int=\count422
 \l__pdf_internal_box=\box61
 ))
 Package: l3keys2e 2021-06-01 LaTeX2e option processing using LaTeX3 keys
 )
-<<<<<<< HEAD
 (C:\Users\Seifeddine Mhiri\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.
 sty
 Package: array 2021/04/20 v2.5e Tabular extension package (FMi)
-\col@sep=\dimen168
-=======
-(C:\Users\MiN0DE\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
-Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
 \col@sep=\dimen164
->>>>>>> refs/remotes/origin/main
 \ar@mcellbox=\box62
 \extrarowheight=\dimen165
 \NC@list=\toks27
@@ -788,29 +621,16 @@ LaTeX Font Info:    ... okay on input line 23.
 (C:\Users\Seifeddine Mhiri\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\
 supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-<<<<<<< HEAD
-\scratchcounter=\count433
-\scratchdimen=\dimen170
-\scratchbox=\box64
-\nofMPsegments=\count434
-\nofMParguments=\count435
-\everyMPshowfont=\toks28
-\MPscratchCnt=\count436
-\MPscratchDim=\dimen171
-\MPnumerator=\count437
-\makeMPintoPDFobject=\count438
-=======
-\scratchcounter=\count424
+\scratchcounter=\count423
 \scratchdimen=\dimen166
 \scratchbox=\box64
-\nofMPsegments=\count425
-\nofMParguments=\count426
+\nofMPsegments=\count424
+\nofMParguments=\count425
 \everyMPshowfont=\toks28
-\MPscratchCnt=\count427
+\MPscratchCnt=\count426
 \MPscratchDim=\dimen167
-\MPnumerator=\count428
-\makeMPintoPDFobject=\count429
->>>>>>> refs/remotes/origin/main
+\MPnumerator=\count427
+\makeMPintoPDFobject=\count428
 \everyMPtoPDFconversion=\toks29
 )
 (C:\Users\Seifeddine Mhiri\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg
@@ -873,32 +693,6 @@ Package biblatex Info: ... file 'Projektdokumentation.bbl' found.
  (Projektdokumentation.bbl)
 Package biblatex Info: Reference section=0 on input line 23.
 Package biblatex Info: Reference segment=0 on input line 23.
-<<<<<<< HEAD
-Package hyperref Info: Link coloring OFF on input line 23.
-
-(C:\Users\Seifeddine Mhiri\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nam
-eref.sty
-Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
-
-(C:\Users\Seifeddine Mhiri\AppData\Local\Programs\MiKTeX\tex/latex/refcount\ref
-count.sty
-Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-)
-(C:\Users\Seifeddine Mhiri\AppData\Local\Programs\MiKTeX\tex/generic/gettitlest
-ring\gettitlestring.sty
-Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
-)
-\c@section@level=\count439
-)
-LaTeX Info: Redefining \ref on input line 23.
-LaTeX Info: Redefining \pageref on input line 23.
-LaTeX Info: Redefining \nameref on input line 23.
- (Projektdokumentation.out) (Projektdokumentation.out)
-\@outlinefile=\write4
-\openout4 = `Projektdokumentation.out'.
-
-=======
->>>>>>> refs/remotes/origin/main
 
 (C:\Users\Seifeddine Mhiri\AppData\Local\Programs\MiKTeX\tex/latex/graphics\col
 or.sty
@@ -915,13 +709,7 @@ Package color Info: Driver file: pdftex.def on input line 149.
 File: translations-basic-dictionary-german.trsl (german translation file `trans
 lations-basic-dictionary')
 )
-<<<<<<< HEAD
-LaTeX Font Info:    Trying to load font information for U+msa on input line 25.
-=======
-Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `german'. on input line 23.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 24.
->>>>>>> refs/remotes/origin/main
 
 
 (C:\Users\Seifeddine Mhiri\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\ums
@@ -936,18 +724,8 @@ b.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-<<<<<<< HEAD
 {C:/Users/Seifeddine Mhiri/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] (Pro
-jektdokumentation.tocpdfTeX warning (ext4): destination with the same identifie
-r (name{page.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.66 ...iges Produktangebot}{26}{subsection.3.1.1}
-                                                  % [1
-=======
-{C:/Users/MiN0DE/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-(Projektdokumentation.toc [1
->>>>>>> refs/remotes/origin/main
+jektdokumentation.toc [1
 
 ])
 \tf@toc=\write4
@@ -980,11 +758,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--43
 ] [4]
 Kapitel 2.
 (Zielsetzung.tex) (Ideensammlung.tex
-Underfull \hbox (badness 10000) in paragraph at lines 2--1
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 2--1
 
  []
@@ -1113,103 +886,86 @@ Overfull \hbox (6.86699pt too wide) in paragraph at lines 8--12
 gn, mensch-li-cher Schnitt-
  []
 
+
+LaTeX Warning: Citation 'AndSt' on page 30 undefined on input line 27.
+
 [30]
+
+LaTeX Warning: Citation 'Flut' on page 31 undefined on input line 33.
+
 <Bilder/StandardFall.PNG, id=131, 803.25093pt x 450.9347pt>
 File: Bilder/StandardFall.PNG Graphic file (type png)
 <use Bilder/StandardFall.PNG>
 Package pdftex.def Info: Bilder/StandardFall.PNG  used on input line 53.
 (pdftex.def)             Requested size: 360.0pt x 202.10681pt.
- [31]
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.55 \\\textbf
-              {Alarm Fall:} Im Falle das der Standort des Automobils sich be...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
+[31]
 <Bilder/AlarmFall.PNG, id=135, 931.22906pt x 496.85625pt>
 File: Bilder/AlarmFall.PNG Graphic file (type png)
 <use Bilder/AlarmFall.PNG>
-Package pdftex.def Info: Bilder/AlarmFall.PNG  used on input line 58.
+Package pdftex.def Info: Bilder/AlarmFall.PNG  used on input line 59.
 (pdftex.def)             Requested size: 360.0pt x 192.07492pt.
+ [32 <./Bilder/StandardFall.PNG>]
 
-Overfull \hbox (1.2874pt too wide) in paragraph at lines 63--83
+LaTeX Warning: Citation 'SDK' on page 33 undefined on input line 75.
+
+
+Overfull \hbox (1.2874pt too wide) in paragraph at lines 66--86
 \T1/cmr/m/n/10.95 Padding-Widget um-schlos-sen wer-den. Ein-fa-ches Bei-spiel i
 n Text-Widget wird
  []
 
 
-Overfull \hbox (9.49069pt too wide) in paragraph at lines 63--83
+Overfull \hbox (9.49069pt too wide) in paragraph at lines 66--86
 \T1/cmr/m/n/10.95 von ei-nem zen-tra-len Wid-get um-ge-ben, das folgt es ist wi
 e-der-um vom Container-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--83
+Underfull \hbox (badness 10000) in paragraph at lines 66--86
 
  []
 
-[32 <./Bilder/StandardFall.PNG> <./Bilder/AlarmFall.PNG>] [33]
+[33 <./Bilder/AlarmFall.PNG>]
 <Bilder/LoginIn.PNG, id=144, 301.125pt x 651.18282pt>
 File: Bilder/LoginIn.PNG Graphic file (type png)
 <use Bilder/LoginIn.PNG>
-Package pdftex.def Info: Bilder/LoginIn.PNG  used on input line 98.
+Package pdftex.def Info: Bilder/LoginIn.PNG  used on input line 101.
 (pdftex.def)             Requested size: 180.0pt x 389.26201pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--99
+Underfull \hbox (badness 10000) in paragraph at lines 88--103
 
  []
 
 [34]
-<Bilder/home.PNG, id=148, 305.64188pt x 648.92438pt>
-File: Bilder/home.PNG Graphic file (type png)
-<use Bilder/home.PNG>
-Package pdftex.def Info: Bilder/home.PNG  used on input line 117.
-(pdftex.def)             Requested size: 180.0pt x 382.15904pt.
-<Bilder/status.PNG, id=149, 306.39468pt x 661.72218pt>
-File: Bilder/status.PNG Graphic file (type png)
-<use Bilder/status.PNG>
-Package pdftex.def Info: Bilder/status.PNG  used on input line 118.
-(pdftex.def)             Requested size: 180.0pt x 388.74669pt.
-<Bilder/location.PNG, id=150, 309.40594pt x 642.90187pt>
-File: Bilder/location.PNG Graphic file (type png)
-<use Bilder/location.PNG>
-Package pdftex.def Info: Bilder/location.PNG  used on input line 119.
-(pdftex.def)             Requested size: 180.0pt x 374.0311pt.
+<Bilder/hauptseite.PNG, id=148, 919.18407pt x 645.16031pt>
+File: Bilder/hauptseite.PNG Graphic file (type png)
+<use Bilder/hauptseite.PNG>
+Package pdftex.def Info: Bilder/hauptseite.PNG  used on input line 121.
+(pdftex.def)             Requested size: 360.0pt x 252.68454pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--120
+Underfull \hbox (badness 10000) in paragraph at lines 106--123
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--120
+Underfull \hbox (badness 10000) in paragraph at lines 106--123
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--120
+Underfull \hbox (badness 10000) in paragraph at lines 106--123
 
  []
 
 
-Overfull \hbox (33.28474pt too wide) in paragraph at lines 102--120
+Overfull \hbox (33.28474pt too wide) in paragraph at lines 106--123
 \T1/cmr/m/n/10.95 Ko-or-di-na-ten vom GPS Smart-pho-nes ist, be-kommt man ei-ne
  Push-Benachrichtigung.
  []
 
-[35 <./Bilder/LoginIn.PNG>]) (Entwicklung_iOS.tex [36]
-Overfull \vbox (551.13657pt too high) has occurred while \output is active []
-
-
-[37 <./Bilder/home.PNG> <./Bilder/status.PNG> <./Bilder/location.PNG>]
-<Bilder/iOS_camunda.png, id=165, 3730.93875pt x 1005.7575pt>
+[35 <./Bilder/LoginIn.PNG>]) (Entwicklung_iOS.tex [36 <./Bilder/hauptseite.PNG>
+]
+<Bilder/iOS_camunda.png, id=158, 3730.93875pt x 1005.7575pt>
 File: Bilder/iOS_camunda.png Graphic file (type png)
 <use Bilder/iOS_camunda.png>
 Package pdftex.def Info: Bilder/iOS_camunda.png  used on input line 25.
@@ -1218,7 +974,7 @@ File: Bilder/iOS_camunda.png Graphic file (type png)
 <use Bilder/iOS_camunda.png>
 Package pdftex.def Info: Bilder/iOS_camunda.png  used on input line 38.
 (pdftex.def)             Requested size: 360.0pt x 97.03658pt.
- [38 <./Bilder/iOS_camunda.png>]
+ [37 <./Bilder/iOS_camunda.png>]
 File: Bilder/iOS_camunda.png Graphic file (type png)
 <use Bilder/iOS_camunda.png>
 Package pdftex.def Info: Bilder/iOS_camunda.png  used on input line 46.
@@ -1233,7 +989,7 @@ Overfull \hbox (5.6834pt too wide) in paragraph at lines 63--64
 v=gWaSZPfxT9s 
  []
 
-[39]
+[38]
 File: Bilder/iOS_camunda.png Graphic file (type png)
 <use Bilder/iOS_camunda.png>
 Package pdftex.def Info: Bilder/iOS_camunda.png  used on input line 76.
@@ -1249,34 +1005,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 81--56
 
  []
 
-[40] [41]
+[39] [40]
 Kapitel 5.
-(Produkt.tex [42
+(Produkt.tex [41
 
 ]
-<Bilder/Produkt_Vergleich.png, id=183, 308.65312pt x 242.9075pt>
+<Bilder/Produkt_Vergleich.png, id=175, 308.65312pt x 242.9075pt>
 File: Bilder/Produkt_Vergleich.png Graphic file (type png)
 <use Bilder/Produkt_Vergleich.png>
 Package pdftex.def Info: Bilder/Produkt_Vergleich.png  used on input line 18.
 (pdftex.def)             Requested size: 270.0pt x 212.50645pt.
- [43 <./Bilder/Produkt_Vergleich.png>]) [44]
+ [42 <./Bilder/Produkt_Vergleich.png>]) [43]
 Kapitel 6.
 (Rück_Ausblick.tex
-<Bilder/Rueckblick_Vergleich.png, id=191, 551.56062pt x 279.0425pt>
+<Bilder/Rueckblick_Vergleich.png, id=184, 551.56062pt x 279.0425pt>
 File: Bilder/Rueckblick_Vergleich.png Graphic file (type png)
 <use Bilder/Rueckblick_Vergleich.png>
 Package pdftex.def Info: Bilder/Rueckblick_Vergleich.png  used on input line 14
 .
 (pdftex.def)             Requested size: 360.0pt x 182.13762pt.
- [45
+ [44
 
  <./Bilder/Rueckblick_Vergleich.png>]
-<Bilder/Arduino_Sirene.jpg, id=196, 721.094pt x 467.346pt>
+<Bilder/Arduino_Sirene.jpg, id=189, 721.094pt x 467.346pt>
 File: Bilder/Arduino_Sirene.jpg Graphic file (type jpg)
 <use Bilder/Arduino_Sirene.jpg>
 Package pdftex.def Info: Bilder/Arduino_Sirene.jpg  used on input line 40.
 (pdftex.def)             Requested size: 360.0pt x 233.323pt.
- [46] [47 <./Bilder/Arduino_Sirene.jpg>]
+ [45] [46 <./Bilder/Arduino_Sirene.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 63--79
 
  []
@@ -1285,17 +1041,18 @@ File: Bilder/iOS_camunda.png Graphic file (type png)
 <use Bilder/iOS_camunda.png>
 Package pdftex.def Info: Bilder/iOS_camunda.png  used on input line 88.
 (pdftex.def)             Requested size: 360.0pt x 97.03658pt.
-[48]) [49] (Projektdokumentation.lof)
+[47]) [48] (Projektdokumentation.lof)
 \tf@lof=\write5
 \openout5 = `Projektdokumentation.lof'.
 
- [50
+ [49
 
 ]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 6
 6.
 
-(C:\Users\MiN0DE\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
+(C:\Users\Seifeddine Mhiri\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.
+fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 Overfull \hbox (33.98158pt too wide) in paragraph at lines 66--66
@@ -1303,73 +1060,50 @@ Overfull \hbox (33.98158pt too wide) in paragraph at lines 66--66
 information _
  []
 
-[51
+[50
 
 ] (Projektdokumentation.aux)
-<<<<<<< HEAD
-Package rerunfilecheck Info: File `Projektdokumentation.out' has not changed.
-(rerunfilecheck)             Checksum: 06320B0340EC77A931099AEE4A472CFA;5449.
-=======
->>>>>>> refs/remotes/origin/main
+
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                Projektdokumentation
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'Projektdokumentation.run.xml'.
 \openout1 = `Projektdokumentation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 22753 strings out of 478864
- 435398 string characters out of 2843410
- 939346 words of memory out of 3000000
- 40282 multiletter control sequences out of 15000+600000
- 419152 words of font info for 64 fonts, out of 8000000 for 9000
- 1143 hyphenation exceptions out of 8191
- 72i,7n,83p,1857b,2473s stack positions out of 5000i,500n,10000p,200000b,80000s
- <C:\Users\Seifeddine Mhiri\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/
-dpi600\tcrm1095.pk> <C:\Users\Seifeddine Mhiri\AppData\Local\MiKTeX\fonts/pk/lj
-four/jknappen/ec/dpi600\ecti1095.pk> <C:\Users\Seifeddine Mhiri\AppData\Local\M
-iKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Seifeddine Mhir
-i\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\User
-s\Seifeddine Mhiri\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx
-2074.pk> <C:\Users\Seifeddine Mhiri\AppData\Local\MiKTeX\fonts/pk/ljfour/jknapp
-en/ec/dpi600\ecrm1095.pk> <C:\Users\Seifeddine Mhiri\AppData\Local\MiKTeX\fonts
-/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\Seifeddine Mhiri\AppData\L
-ocal\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\Seifeddin
-e Mhiri\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C
-:\Users\Seifeddine Mhiri\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
-0\ecrm1728.pk>
-Output written on Projektdokumentation.pdf (31 pages, 2572166 bytes).
-PDF statistics:
- 782 PDF objects out of 1000 (max. 8388607)
- 79 named destinations out of 1000 (max. 500000)
- 347 words of extra memory for PDF output out of 10000 (max. 10000000)
-=======
- 17685 strings out of 478621
- 371172 string characters out of 2843730
- 844560 words of memory out of 3000000
- 35555 multiletter control sequences out of 15000+600000
+ 17015 strings out of 478864
+ 350990 string characters out of 2843410
+ 851251 words of memory out of 3000000
+ 34686 multiletter control sequences out of 15000+600000
  422684 words of font info for 70 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 69i,7n,79p,1902b,2241s stack positions out of 5000i,500n,10000p,200000b,80000s
-{C:/Users/MiN0DE/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-su
-per-ts1.enc}{C:/Users/MiN0DE/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-s
-uper/cm-super-t1.enc}<C:/Users/MiN0DE/AppData/Local/Programs/MiKTeX/fonts/type1
-/public/cm-super/sfbi1728.pfb><C:/Users/MiN0DE/AppData/Local/Programs/MiKTeX/fo
-nts/type1/public/cm-super/sfbx1095.pfb><C:/Users/MiN0DE/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/cm-super/sfbx1200.pfb><C:/Users/MiN0DE/AppData/Local/
-Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1440.pfb><C:/Users/MiN0DE/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx2074.pfb><C:/Users/MiN
-0DE/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx2488.pfb><C:/
-Users/MiN0DE/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfcc1095
-.pfb><C:/Users/MiN0DE/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super
-/sfrm1095.pfb><C:/Users/MiN0DE/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/cm-super/sfrm1200.pfb><C:/Users/MiN0DE/AppData/Local/Programs/MiKTeX/fonts/typ
-e1/public/cm-super/sfti1095.pfb><C:/Users/MiN0DE/AppData/Local/Programs/MiKTeX/
-fonts/type1/public/cm-super/sfti1200.pfb><C:/Users/MiN0DE/AppData/Local/Program
-s/MiKTeX/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on Projektdokumentation.pdf (52 pages, 4042486 bytes).
+ 72i,7n,83p,1902b,2241s stack positions out of 5000i,500n,10000p,200000b,80000s
+ <C:\Users\Seifeddine Mhiri\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/
+dpi600\tcti1095.pk> <C:\Users\Seifeddine Mhiri\AppData\Local\MiKTeX\fonts/pk/lj
+four/jknappen/ec/dpi600\ectt1095.pk> <C:\Users\Seifeddine Mhiri\AppData\Local\M
+iKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1095.pk> <C:\Users\Seifeddine Mhir
+i\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:\User
+s\Seifeddine Mhiri\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti
+1095.pk> <C:\Users\Seifeddine Mhiri\AppData\Local\MiKTeX\fonts/pk/ljfour/jknapp
+en/ec/dpi600\ecbx1200.pk> <C:\Users\Seifeddine Mhiri\AppData\Local\MiKTeX\fonts
+/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\Seifeddine Mhiri\AppData\L
+ocal\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk> <C:\Users\Seifeddin
+e Mhiri\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C
+:\Users\Seifeddine Mhiri\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\ecbx1095.pk> <C:\Users\Seifeddine Mhiri\AppData\Local\MiKTeX\fonts/pk/ljfour/
+jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\Seifeddine Mhiri\AppData\Local\MiKTeX
+\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\Seifeddine Mhiri\App
+Data\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\Sei
+feddine Mhiri\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi1728.
+pk>
+Output written on Projektdokumentation.pdf (51 pages, 3855080 bytes).
 PDF statistics:
- 277 PDF objects out of 1000 (max. 8388607)
+ 784 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 101 words of extra memory for PDF output out of 10000 (max. 10000000)
->>>>>>> refs/remotes/origin/main
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
 

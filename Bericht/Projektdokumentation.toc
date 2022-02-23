@@ -73,32 +73,32 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Hauptseite}{35}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}App - iOS}{38}{}%
+\contentsline {section}{\numberline {4.4}App - iOS}{36}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.1}XCode}{38}{}%
+\contentsline {subsection}{\numberline {4.4.1}XCode}{37}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.2}SwiftUI}{38}{}%
+\contentsline {subsection}{\numberline {4.4.2}SwiftUI}{37}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.3}Hauptkriterien an die Funktionalität}{38}{}%
+\contentsline {subsection}{\numberline {4.4.3}Hauptkriterien an die Funktionalität}{37}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.4}Design}{38}{}%
+\contentsline {subsection}{\numberline {4.4.4}Design}{37}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.5}Probleme}{40}{}%
+\contentsline {subsection}{\numberline {4.4.5}Probleme}{39}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Produkt}{42}{}%
+\contentsline {chapter}{\numberline {5}Produkt}{41}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}zukünftiges Produktangebot}{42}{}%
+\contentsline {section}{\numberline {5.1}zukünftiges Produktangebot}{41}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Vergleich}{43}{}%
+\contentsline {section}{\numberline {5.2}Vergleich}{42}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Rück- und Ausblick}{45}{}%
+\contentsline {chapter}{\numberline {6}Rück- und Ausblick}{44}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Lessons Learned}{46}{}%
+\contentsline {section}{\numberline {6.1}Lessons Learned}{45}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Zukünftige Entwicklung}{46}{}%
+\contentsline {section}{\numberline {6.2}Zukünftige Entwicklung}{45}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Fazit}{49}{}%
+\contentsline {section}{\numberline {6.3}Fazit}{48}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Abbildungsverzeichnis}{49}{}%
+\contentsline {chapter}{Abbildungsverzeichnis}{48}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Quellenverzeichnis}{51}{}%
+\contentsline {chapter}{Quellenverzeichnis}{50}{}%
