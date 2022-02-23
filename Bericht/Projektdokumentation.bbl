@@ -16,5 +16,117 @@
   {}
 \endgroup
 
-\datalist[entry]{anyt/global//global/global}\enddatalist
+\datalist[entry]{anyt/global//global/global}
+  \entry{Full2022}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=FDIH}{%
+         family={Full},
+         familyi={F\bibinitperiod},
+         given={Dipl.-Ing\bibnamedelima Hanna},
+         giveni={D\bibinithyphendelim I\bibinitperiod\bibinitdelim
+  H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FDIH1}
+    \strng{fullhash}{FDIH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Ful22}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{howpublished}{moodle}
+    \field{title}{Prototyping}
+    \verb{url}
+    \verb https://moodle.htw-berlin.de/pluginfile.php/1394565/mod_resource/cont
+    \verb ent/1/06 Design Thinking - Prototyping.pdf
+    \endverb
+    \verb{file}
+    \verb :C\:/Users/MiN0DE/OneDrive/Desktop/06 Design Thinking - Prototyping.p
+    \verb df:PDF
+    \endverb
+    \field{month}{01}
+    \field{year}{2022}
+  \endentry
+
+  \entry{Salind}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=GS}{%
+         family={GPS},
+         familyi={G\bibinitperiod},
+         given={Salind},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GS1}
+    \strng{fullhash}{GS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{GPS}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{title}{SALIND GPS-Tracker Auto, Motorrad, Fahrzeuge und LKW´s mit
+  Magnet, etwa 40 Tage Akkulaufzeit (bis zu 90 Tage im Standby Modus)}
+    \verb{url}
+    \verb https://www.amazon.de/GPS-Tracker-Motorrad-Fahrzeuge-Akkulaufzeit-Sta
+    \verb ndby/dp/B07TV4W8H4/ref=sr_1_8?keywords=gps auto tracker&qid=164554852
+    \verb 4&sprefix=gps aut,aps,97&sr=8-8
+    \endverb
+  \endentry
+
+  \entry{Inc}{report}{}
+    \name{author}{1}{}{%
+      {{hash=IA}{%
+         family={Inc},
+         familyi={I\bibinitperiod},
+         given={Apple},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{IA1}
+    \strng{fullhash}{IA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Inc}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \field{abstract}{%
+    A description of changes made to the default security for HTTP
+  connections.%
+    }
+    \field{title}{NSAppTransportSecurity}
+    \verb{url}
+    \verb https://developer.apple.com/documentation/bundleresources/information
+    \verb _property_list/nsapptransportsecurity
+    \endverb
+    \field{type}{techreport}
+  \endentry
+
+  \entry{JosefineLepzien}{report}{}
+    \name{author}{1}{}{%
+      {{hash=JLML}{%
+         family={Josefine\bibnamedelima Lepzien},
+         familyi={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+         given={Michael\bibnamedelima Lewerenz},
+         giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{JLML1}
+    \strng{fullhash}{JLML1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{JL}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+    \field{title}{Persona-Methode Eine Methode zur Illustrierung von
+  Bildungsbedarfen}
+    \verb{url}
+    \verb https://www.uni-rostock.de/storages/uni-rostock/UniHome/Weiterbildung
+    \verb /KOSMOS/Persona.pdf
+    \endverb
+    \list{institution}{1}{%
+      {uni-rostock}%
+    }
+    \field{type}{techreport}
+  \endentry
+\enddatalist
 \endinput
