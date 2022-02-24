@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1A37137E27A1B8560076BCDB /* LockBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A37137D27A1B8560076BCDB /* LockBtn.swift */; };
 		1A37138027A1CC9C0076BCDB /* ConditionalModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A37137F27A1CC9C0076BCDB /* ConditionalModifier.swift */; };
+		1A37138227A1D1130076BCDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A37138127A1D1130076BCDB /* LaunchScreen.storyboard */; };
 		1A50CBA3278884910067EC65 /* SchroedingerAlarmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A50CBA2278884910067EC65 /* SchroedingerAlarmApp.swift */; };
 		1A50CBA5278884910067EC65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A50CBA4278884910067EC65 /* ContentView.swift */; };
 		1A50CBA7278884920067EC65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A50CBA6278884920067EC65 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 		1A50CBBE278884930067EC65 /* SchroedingerAlarmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A50CBBD278884930067EC65 /* SchroedingerAlarmUITests.swift */; };
 		1A50CBC0278884930067EC65 /* SchroedingerAlarmUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A50CBBF278884930067EC65 /* SchroedingerAlarmUITestsLaunchTests.swift */; };
 		1AD6317F27985F8C00459E81 /* ActivityIndicatorView in Frameworks */ = {isa = PBXBuildFile; productRef = 1AD6317E27985F8C00459E81 /* ActivityIndicatorView */; };
+		1AE05BE327A458C6000233DE /* MapModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE05BE227A458C6000233DE /* MapModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +41,7 @@
 /* Begin PBXFileReference section */
 		1A37137D27A1B8560076BCDB /* LockBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockBtn.swift; sourceTree = "<group>"; };
 		1A37137F27A1CC9C0076BCDB /* ConditionalModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalModifier.swift; sourceTree = "<group>"; };
+		1A37138127A1D1130076BCDB /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A50CB9F278884910067EC65 /* SchroedingerAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchroedingerAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A50CBA2278884910067EC65 /* SchroedingerAlarmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchroedingerAlarmApp.swift; sourceTree = "<group>"; };
 		1A50CBA4278884910067EC65 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		1A50CBB9278884930067EC65 /* SchroedingerAlarmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchroedingerAlarmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A50CBBD278884930067EC65 /* SchroedingerAlarmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchroedingerAlarmUITests.swift; sourceTree = "<group>"; };
 		1A50CBBF278884930067EC65 /* SchroedingerAlarmUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchroedingerAlarmUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1AE05BE227A458C6000233DE /* MapModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				1A50CBA8278884920067EC65 /* Preview Content */,
 				1A37137D27A1B8560076BCDB /* LockBtn.swift */,
 				1A37137F27A1CC9C0076BCDB /* ConditionalModifier.swift */,
+				1A37138127A1D1130076BCDB /* LaunchScreen.storyboard */,
+				1AE05BE227A458C6000233DE /* MapModel.swift */,
 			);
 			path = SchroedingerAlarm;
 			sourceTree = "<group>";
@@ -245,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A37138227A1D1130076BCDB /* LaunchScreen.storyboard in Resources */,
 				1A50CBAA278884920067EC65 /* Preview Assets.xcassets in Resources */,
 				1A50CBA7278884920067EC65 /* Assets.xcassets in Resources */,
 			);
@@ -272,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A37137E27A1B8560076BCDB /* LockBtn.swift in Sources */,
+				1AE05BE327A458C6000233DE /* MapModel.swift in Sources */,
 				1A50CBA5278884910067EC65 /* ContentView.swift in Sources */,
 				1A50CBA3278884910067EC65 /* SchroedingerAlarmApp.swift in Sources */,
 				1A37138027A1CC9C0076BCDB /* ConditionalModifier.swift in Sources */,
@@ -440,6 +448,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -448,7 +457,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = mgo.SchroedingerAlarm;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SchroedingerAlarm;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -468,6 +477,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -476,7 +486,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = mgo.SchroedingerAlarm;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SchroedingerAlarm;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

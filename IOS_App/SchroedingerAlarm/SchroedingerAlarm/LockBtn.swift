@@ -17,11 +17,14 @@ struct LockBtn: View {
                 Image(systemName: "lock")
                     .foregroundColor(.green)
                     .font(.system(size: 80, weight: .ultraLight))
+               
             } else {
-                Image(systemName: "lock.open")
+                Image(systemName: "lock.slash")
                     .foregroundColor(.red)
-                    .font(.system(size: 80, weight: .ultraLight))
+                    .font(.system(size: 78, weight: .ultraLight))
             }
         }
     }
 }
+//TODO: 1. wenn aktiviert, dann werden die Benachrichtigungen aktiviert - wenn deaktivert, wird nur der Standort angezeigt
+// 2. Erweiterung : nur wenn aktiviert, wird der Webserver abgefragt und Benachrichtigungen (bei Bewegung) angezeigt, wenn deaktiviert wird nur der letzte Standort angezeigt
