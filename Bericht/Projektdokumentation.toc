@@ -1,5 +1,5 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\babel@toc {ngerman}{}
+\babel@toc {ngerman}{}\relax 
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Einführung}{3}{}%
 \defcounter {refsection}{0}\relax 
@@ -11,7 +11,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1.2}Die autoleere Stadt}{6}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.3}Gesichtserkennung und Startunterbrechung}{6}{}%
+\contentsline {subsection}{\numberline {2.1.3}Gesichtserkennung und Startunterbrechung}{7}{}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Projektmanagement}{8}{}%
 \defcounter {refsection}{0}\relax 
@@ -75,30 +75,34 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.4}App - iOS}{36}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.1}XCode}{37}{}%
+\contentsline {subsection}{\numberline {4.4.1}Xcode}{37}{}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.4.2}SwiftUI}{37}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.3}Hauptkriterien an die Funktionalität}{37}{}%
+\contentsline {subsection}{\numberline {4.4.3}Hauptkriterien an die Funktionalität}{38}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.4}Design}{37}{}%
+\contentsline {subsection}{\numberline {4.4.4}Design}{38}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.5}Probleme}{39}{}%
+\contentsline {subsection}{\numberline {4.4.5}Probleme}{42}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Produkt}{41}{}%
+\contentsline {chapter}{\numberline {5}Produkt}{46}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}zukünftiges Produktangebot}{41}{}%
+\contentsline {section}{\numberline {5.1}zukünftiges Produktangebot}{46}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Vergleich}{42}{}%
+\contentsline {section}{\numberline {5.2}Vergleich}{47}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Rück- und Ausblick}{44}{}%
+\contentsline {chapter}{\numberline {6}Rück- und Ausblick}{49}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Lessons Learned}{45}{}%
+\contentsline {section}{\numberline {6.1}Lessons Learned}{50}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Zukünftige Entwicklung}{45}{}%
+\contentsline {section}{\numberline {6.2}Zukünftige Entwicklung}{50}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Fazit}{48}{}%
+\contentsline {section}{\numberline {6.3}Fazit}{54}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Abbildungsverzeichnis}{48}{}%
+\contentsline {chapter}{\numberline {7}Anhänge}{55}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Quellenverzeichnis}{50}{}%
+\contentsline {section}{\numberline {7.1}Codequellen}{55}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Abbildungsverzeichnis}{55}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Quellenverzeichnis}{57}{}%

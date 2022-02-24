@@ -17,6 +17,57 @@
 \endgroup
 
 \datalist[entry]{anyt/global//global/global}
+  \entry{Ahmad2020}{report}{}
+    \name{author}{1}{}{%
+      {{hash=AS}{%
+         family={Ahmad},
+         familyi={A\bibinitperiod},
+         given={Suhali},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \keyw{XCode}
+    \strng{namehash}{AS1}
+    \strng{fullhash}{AS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Ahm20}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{title}{XCode}
+    \verb{url}
+    \verb https://worldofvr.de/xcode/
+    \endverb
+    \list{institution}{1}{%
+      {World of VR}%
+    }
+    \field{type}{techreport}
+    \field{year}{2020}
+  \endentry
+
+  \entry{Bode2022}{article}{}
+    \name{author}{1}{}{%
+      {{hash=BKN}{%
+         family={Bode},
+         familyi={B\bibinitperiod},
+         given={Katja\bibnamedelima Nele},
+         giveni={K\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+    }
+    \keyw{Kreativitätstheorie}
+    \strng{namehash}{BKN1}
+    \strng{fullhash}{BKN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Bod22}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{title}{Anleitung zum Fliegen lernen}
+    \field{journaltitle}{centaur}
+    \field{month}{02}
+    \field{year}{2022}
+  \endentry
+
   \entry{Full2022}{misc}{}
     \name{author}{1}{}{%
       {{hash=FDIH}{%
@@ -87,6 +138,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelalpha}{Inc}
+    \field{extraalpha}{1}
     \field{sortinit}{I}
     \field{sortinithash}{I}
     \field{abstract}{%
@@ -98,6 +150,34 @@
     \verb https://developer.apple.com/documentation/bundleresources/information
     \verb _property_list/nsapptransportsecurity
     \endverb
+    \field{type}{techreport}
+  \endentry
+
+  \entry{Inca}{report}{}
+    \name{author}{1}{}{%
+      {{hash=IA}{%
+         family={Inc},
+         familyi={I\bibinitperiod},
+         given={Apple},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \keyw{SwiftUI}
+    \strng{namehash}{IA1}
+    \strng{fullhash}{IA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Inc}
+    \field{extraalpha}{2}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \field{title}{SwiftUI}
+    \verb{url}
+    \verb https://developer.apple.com/documentation/swiftui
+    \endverb
+    \list{institution}{1}{%
+      {Apple Inc}%
+    }
     \field{type}{techreport}
   \endentry
 
@@ -126,6 +206,74 @@
     \list{institution}{1}{%
       {uni-rostock}%
     }
+    \field{type}{techreport}
+  \endentry
+
+  \entry{Flut}{report}{}
+    \name{author}{1}{}{%
+      {{hash=LJ}{%
+         family={Landwehr},
+         familyi={L\bibinitperiod},
+         given={Jesko},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LJ1}
+    \strng{fullhash}{LJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Lan}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{title}{Was ist Flutter?}
+    \verb{url}
+    \verb https://it-talents.de/it-wissen/was-ist-flutter/
+    \endverb
+    \field{type}{techreport}
+  \endentry
+
+  \entry{AndSt}{report}{}
+    \name{author}{1}{}{%
+      {{hash=p}{%
+         family={programmierenlernenhq},
+         familyi={p\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{p1}
+    \strng{fullhash}{p1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{pro}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{title}{Android Studio Tipps und Tricks}
+    \verb{url}
+    \verb https://www.programmierenlernenhq.de/android-studio-tipps/
+    \endverb
+    \field{type}{techreport}
+  \endentry
+
+  \entry{SDK}{report}{}
+    \name{author}{1}{}{%
+      {{hash=VJHL}{%
+         family={Vogel},
+         familyi={V\bibinitperiod},
+         given={Jonas Hungershausen\bibnamedelima Lars},
+         giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim
+  L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{VJHL1}
+    \strng{fullhash}{VJHL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Vog}
+    \field{sortinit}{V}
+    \field{sortinithash}{V}
+    \field{title}{Mobiles Entwickeln mit dem Flutter SDK}
+    \verb{url}
+    \verb https://entwickler.de/mobile/flutter-haft
+    \endverb
     \field{type}{techreport}
   \endentry
 \enddatalist

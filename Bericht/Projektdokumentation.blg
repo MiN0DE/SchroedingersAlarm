@@ -22,56 +22,47 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: Projektdokumentation-blx.bib
 Database file #2: Quellen.bib
-I was expecting a `,' or a `}'---line 61 of file Quellen.bib
- :   author    = Jonas 
- :                     Hungershausen Lars Vogel ,
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 79 of file Quellen.bib
- :   title     = Android 
- :                       Studio Tipps und Tricks,
-I'm skipping whatever remains of this entry
 Biblatex version: 3.16
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
-You've used 5 entries,
+You've used 11 entries,
             6393 wiz_defined-function locations,
-            1226 strings with 10007 characters,
-and the built_in function-call counts, 20754 in all, are:
-= -- 1275
-> -- 424
-< -- 148
-+ -- 310
-- -- 158
-* -- 1473
-:= -- 2069
+            1258 strings with 10555 characters,
+and the built_in function-call counts, 47153 in all, are:
+= -- 2822
+> -- 960
+< -- 377
++ -- 674
+- -- 328
+* -- 3378
+:= -- 4315
 add.period$ -- 0
-call.type$ -- 5
-change.case$ -- 54
-chr.to.int$ -- 50
-cite$ -- 8
-duplicate$ -- 1894
-empty$ -- 2113
-format.name$ -- 204
-if$ -- 4480
+call.type$ -- 11
+change.case$ -- 140
+chr.to.int$ -- 56
+cite$ -- 20
+duplicate$ -- 4676
+empty$ -- 4861
+format.name$ -- 517
+if$ -- 10218
 int.to.chr$ -- 0
-int.to.str$ -- 9
+int.to.str$ -- 26
 missing$ -- 0
-newline$ -- 128
-num.names$ -- 194
-pop$ -- 1396
+newline$ -- 275
+num.names$ -- 496
+pop$ -- 3421
 preamble$ -- 1
-purify$ -- 62
+purify$ -- 160
 quote$ -- 0
-skip$ -- 763
+skip$ -- 1802
 stack$ -- 0
-substring$ -- 2298
-swap$ -- 532
-text.length$ -- 146
-text.prefix$ -- 7
+substring$ -- 4741
+swap$ -- 1329
+text.length$ -- 341
+text.prefix$ -- 19
 top$ -- 1
-type$ -- 156
+type$ -- 355
 warning$ -- 0
-while$ -- 272
+while$ -- 568
 width$ -- 0
-write$ -- 124
-(There were 2 error messages)
+write$ -- 265
