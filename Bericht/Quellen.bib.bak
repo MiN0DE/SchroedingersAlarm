@@ -94,4 +94,14 @@
   keywords = {Kreativitätstheorie},
 }
 
+@Article{Duemmer2021,
+  author   = {Katharina Dümmer},
+  journal  = {ADAC},
+  title    = {Autodiebstahl: Welche Pkw bei Kfz-Knackern besonders beliebt sind},
+  year     = {2021},
+  month    = oct,
+  keywords = {Autodiebstahl},
+  url      = {https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/auto/autodiebstahl-statistik/},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

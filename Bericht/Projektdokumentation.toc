@@ -99,13 +99,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.4.5}Probleme}{44}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Koordinaten in JSON als String hinterlegt}{45}{}%
+\contentsline {subsubsection}{Koordinaten in JSON als String hinterlegt}{44}{}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Http? Abrufen verboten!}{45}{}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}Produkt}{47}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}zukünftiges Produktangebot}{48}{}%
+\contentsline {section}{\numberline {5.1}zukünftiges Produktangebot}{47}{}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.2}Vergleich}{48}{}%
 \defcounter {refsection}{0}\relax 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12.10) (preloaded format=pdflatex 2022.1.8)  25 FEB 2022 15:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12.10) (preloaded format=pdflatex 2022.1.8)  25 FEB 2022 15:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -713,18 +713,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--39
 ]
 Kapitel 2.
 (Zielsetzung.tex
-Overfull \hbox (13.6392pt too wide) in paragraph at lines 17--21
-\T1/cmr/m/n/10.95 ver-rin-gern, son-dern zu-sätz-lich Fak-to-ren wie Nut-zer-fr
-eund-lich-keit, Anschaffungs-
- []
-
-
-Overfull \hbox (10.36182pt too wide) in paragraph at lines 17--21
-\T1/cmr/m/n/10.95 und War-tungs-kos-ten so-wie Nach-hal-tig-keit be-rück-sich-t
-i-gen. Des Wei-te-ren möch-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 17--21
 
  []
@@ -880,12 +868,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--20
  []
 
 [18]
-Overfull \hbox (5.9117pt too wide) in paragraph at lines 22--29
-\T1/cmr/m/n/10.95 der VNC-Software, son-dern es scheint ge-ne-rel-le Internet-V
-erbindungsprobleme
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 22--29
 
  []
@@ -903,12 +885,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--45
 
 Underfull \hbox (badness 10000) in paragraph at lines 31--45
 
- []
-
-
-Overfull \hbox (16.68837pt too wide) in paragraph at lines 31--45
-\T1/cmr/m/n/10.95 je-des Ge-rät ei-ne von uns ma-nu-ell ver-ge-be-nen Geräte-Id
-entifikationscode (\T1/cmr/m/it/10.95 Geräte-
  []
 
 
@@ -969,23 +945,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 60--80
  []
 
 [23] [24]
-Underfull \hbox (badness 10000) in paragraph at lines 83--90
-
- []
-
-
-Overfull \hbox (143.39929pt too wide) in paragraph at lines 83--90
-\T1/cmr/m/n/10.95 JSON-Format an-ge-ord-net wer-den und per http-POST an die UR
-L \T1/cmr/m/it/10.95 http://retrorbit.spdns.de/get_Data.php
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--90
+Underfull \hbox (badness 10000) in paragraph at lines 83--87
 
  []
 
 [25 <./Bilder/Webserver_PAP.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 100--104
+Underfull \hbox (badness 10000) in paragraph at lines 90--94
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--108
 
  []
 
@@ -994,31 +964,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 100--104
 File: Bilder/Webserver_verschluesslung.png Graphic file (type png)
 <use Bilder/Webserver_verschluesslung.png>
 Package pdftex.def Info: Bilder/Webserver_verschluesslung.png  used on input li
-ne 121.
+ne 125.
 (pdftex.def)             Requested size: 360.0pt x 74.83319pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--125
+Underfull \hbox (badness 10000) in paragraph at lines 110--129
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--125
+Underfull \hbox (badness 10000) in paragraph at lines 110--129
 
  []
 
 
-Overfull \hbox (0.29741pt too wide) in paragraph at lines 106--125
+Overfull \hbox (0.29741pt too wide) in paragraph at lines 110--129
 \T1/cmr/m/n/10.95 tei app_key.txt ge-la-den. Die-se Da-tei wur-de im Skript 
 key_from_app.php
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--125
+Underfull \hbox (badness 10000) in paragraph at lines 110--129
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--125
+Underfull \hbox (badness 10000) in paragraph at lines 110--129
 
  []
 
@@ -1026,7 +996,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 106--125
 <Bilder/Webserver_pap2.jpg, id=125, 455.301pt x 711.8595pt>
 File: Bilder/Webserver_pap2.jpg Graphic file (type jpg)
 <use Bilder/Webserver_pap2.jpg>
-Package pdftex.def Info: Bilder/Webserver_pap2.jpg  used on input line 129.
+Package pdftex.def Info: Bilder/Webserver_pap2.jpg  used on input line 133.
 (pdftex.def)             Requested size: 360.0pt x 562.87335pt.
  [29 <./Bilder/Webserver_verschluesslung.png>]
 Overfull \vbox (2.67308pt too high) has occurred while \output is active []
@@ -1175,44 +1145,17 @@ Package pdftex.def Info: Bilder/iOS_launch.png  used on input line 57.
 (pdftex.def)             Requested size: 143.9978pt x 311.42113pt.
  [41 <./Bilder/iOS_icon.png>]
 <Bilder/iOS_home.png, id=181, 438.63875pt x 943.02313pt>
-
-! Dimension too large.
-<recently read> \Gin@nat@height 
-                                
-l.65 ...[width=045\textwidth]{Bilder/iOS_home.png}
-                                                  
-I can't work with sizes bigger than about 19 feet.
-Continue and I'll use the largest value I can.
-
 File: Bilder/iOS_home.png Graphic file (type png)
 <use Bilder/iOS_home.png>
 Package pdftex.def Info: Bilder/iOS_home.png  used on input line 65.
-(pdftex.def)             Requested size: 16200.0pt x 16383.99998pt.
-! Dimension too large.
-\Gscale@box ...#2\ht \z@ \else \ht \tw@ #2\ht \z@ 
-                                                  \dp \tw@ #2\dp \z@ \fi \if...
-l.65 ...[width=045\textwidth]{Bilder/iOS_home.png}
-                                                  
-I can't work with sizes bigger than about 19 feet.
-Continue and I'll use the largest value I can.
-
-
-Overfull \hbox (15840.0pt too wide) in paragraph at lines 65--66
- [] 
- []
-
-[42 <./Bilder/iOS_launch.png>]
-Overfull \vbox (15824.79971pt too high) has occurred while \output is active []
-
-
-
-[43 <./Bilder/iOS_home.png>]
-<Bilder/iOS_map.png, id=191, 438.63875pt x 959.08313pt>
+(pdftex.def)             Requested size: 143.9978pt x 309.58699pt.
+ [42 <./Bilder/iOS_launch.png>]
+<Bilder/iOS_map.png, id=187, 438.63875pt x 959.08313pt>
 File: Bilder/iOS_map.png Graphic file (type png)
 <use Bilder/iOS_map.png>
 Package pdftex.def Info: Bilder/iOS_map.png  used on input line 73.
 (pdftex.def)             Requested size: 143.9978pt x 314.85936pt.
-
+ [43 <./Bilder/iOS_home.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 83--86
 
  []
@@ -1228,7 +1171,7 @@ File: Bilder/iOS_fehlermeldung.png Graphic file (type png)
 <use Bilder/iOS_fehlermeldung.png>
 Package pdftex.def Info: Bilder/iOS_fehlermeldung.png  used on input line 95.
 (pdftex.def)             Requested size: 360.0pt x 278.22151pt.
- [45])
+)
 Overfull \hbox (1.30267pt too wide) in paragraph at lines 100--57
 \T1/cmr/m/n/10.95 Ap-ps und App-Erweiterungen. ATS er-for-dert, dass al-le HTTP
 -Verbindungen,
@@ -1245,46 +1188,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 100--57
 
  []
 
-[46 <./Bilder/iOS_fehlermeldung.png>]
+[45 <./Bilder/iOS_fehlermeldung.png>] [46]
 Kapitel 5.
 (Produkt.tex
+<Bilder/Produkt.jpg, id=204, 4599.1825pt x 2872.7325pt>
+File: Bilder/Produkt.jpg Graphic file (type jpg)
+<use Bilder/Produkt.jpg>
+Package pdftex.def Info: Bilder/Produkt.jpg  used on input line 5.
+(pdftex.def)             Requested size: 360.0pt x 224.82619pt.
 
-LaTeX Warning: Reference `product' on page 47 undefined on input line 1.
-
-
-LaTeX Warning: File `Bilder/Produkt.jpg' not found on input line 5.
-
-
-! Package pdftex.def Error: File `Bilder/Produkt.jpg' not found: using draft se
-tting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5 ...s[width=0.75\textwidth]{Bilder/Produkt.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 5
-.
-(C:\Users\MiN0DE\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
-File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
 Underfull \hbox (badness 10000) in paragraph at lines 12--17
 
  []
 
 [47
 
-]
+ <./Bilder/Produkt.jpg>]
 <Bilder/Produkt_Vergleich.png, id=208, 308.65312pt x 242.9075pt>
 File: Bilder/Produkt_Vergleich.png Graphic file (type png)
 <use Bilder/Produkt_Vergleich.png>
 Package pdftex.def Info: Bilder/Produkt_Vergleich.png  used on input line 24.
 (pdftex.def)             Requested size: 270.0pt x 212.50645pt.
- [48] [49 <./Bilder/Produkt_Vergleich.png>]) [50]
+ [48] [49 <./Bilder/Produkt_Vergleich.png>])
+[50]
 Kapitel 6.
 (RÃ¼ck_Ausblick.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--6
@@ -1405,12 +1331,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 96--120
 [56]) [57 <./Bilder/iOS_addDevice.png>]
 Kapitel 7.
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--69
+Underfull \hbox (badness 10000) in paragraph at lines 64--68
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--74
+Overfull \hbox (12.4264pt too wide) in paragraph at lines 64--68
+\T1/cmr/m/n/10.95 Öffentliches Git-Repository : \T1/cmr/m/it/10.95 htt-ps://git
+hub.com/MiN0DE/SchroedingersAlarm 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--73
 
  []
 
@@ -1423,20 +1355,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 70--74
  [59
 
 ]
-Overfull \hbox (7.58995pt too wide) in paragraph at lines 82--82
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 8
+1.
+
+(C:\Users\MiN0DE\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+Overfull \hbox (7.58995pt too wide) in paragraph at lines 81--81
 []\T1/cmr/m/n/10.95 Katharina Düm-mer.   Au-to-dieb-stahl: Wel-che Pkw bei Kfz
 -Knackern
  []
 
 
-Overfull \hbox (2.08972pt too wide) in paragraph at lines 82--82
+Overfull \hbox (2.08972pt too wide) in paragraph at lines 81--81
 []\T1/cmr/m/n/10.95 Dipl.-Ing Han-na Full. \T1/cmr/m/it/10.95 Pro-to-ty-ping\T1
 /cmr/m/n/10.95 . mood-le. Jan. 2022. \T1/cmr/m/sc/10.95 url\T1/cmr/m/n/10.95 : 
 $\T1/cmtt/m/n/10.95 https :
  []
 
 
-Overfull \hbox (16.68341pt too wide) in paragraph at lines 82--82
+Overfull \hbox (16.68341pt too wide) in paragraph at lines 81--81
 []\T1/cmr/m/n/10.95 Apple Inc. \T1/cmr/m/it/10.95 Swif-tUI\T1/cmr/m/n/10.95 . T
 echn. Ber. Ap-p-le Inc. \T1/cmr/m/sc/10.95 url\T1/cmr/m/n/10.95 : $\T1/cmtt/m/n
 /10.95 https : / / developer .
@@ -1445,7 +1383,7 @@ echn. Ber. Ap-p-le Inc. \T1/cmr/m/sc/10.95 url\T1/cmr/m/n/10.95 : $\T1/cmtt/m/n
 ! Misplaced alignment tab character &.
 <argument> Scrum kurz &
                         gut
-l.82 ...ding=bibintoc, title={Quellenverzeichnis}]
+l.81 ...ding=bibintoc, title={Quellenverzeichnis}]
                                                   
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1457,21 +1395,15 @@ might try typing `S' now just to see what is salvageable.
 [60
 
 ] [61] (Projektdokumentation.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package logreq Info: Writing requests to 'Projektdokumentation.run.xml'.
 \openout1 = `Projektdokumentation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 17806 strings out of 478621
- 374132 string characters out of 2843730
- 841011 words of memory out of 3000000
- 35651 multiletter control sequences out of 15000+600000
+ 17771 strings out of 478621
+ 373374 string characters out of 2843730
+ 841022 words of memory out of 3000000
+ 35627 multiletter control sequences out of 15000+600000
  427169 words of font info for 82 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  69i,8n,79p,1927b,2241s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1494,9 +1426,9 @@ s/MiKTeX/fonts/type1/public/cm-super/sfrm1200.pfb><C:/Users/MiN0DE/AppData/Loca
 l/Programs/MiKTeX/fonts/type1/public/cm-super/sfti1095.pfb><C:/Users/MiN0DE/App
 Data/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfti1200.pfb><C:/Users/M
 iN0DE/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on Projektdokumentation.pdf (62 pages, 7733779 bytes).
+Output written on Projektdokumentation.pdf (62 pages, 9364154 bytes).
 PDF statistics:
- 333 PDF objects out of 1000 (max. 8388607)
+ 334 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 126 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 131 words of extra memory for PDF output out of 10000 (max. 10000000)
 
