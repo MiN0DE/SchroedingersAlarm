@@ -19,11 +19,11 @@ Dennoch haben wir den Großteil geschafft, wie im Ausschnitt in Abbildung \ref{t
 
 
 \section{Lessons Learned}
-Es ist wichtig dass das Minimum Viable Product einen Nutzen bringt und einfach in seiner Bedienung ist\cite{Full2022}
-Durch Feedback von unseren Testern konnten wir herauskristallisieren, dass unsere Apps durch ihr derzeitiges unterschiedliches Design irreführend sind - Anmerkung: Ein einheitliches Design an sich war uns bis hier nicht wichtig, da hier tatsächlich der Lernerfolg und Spaß an der Bearbeitung an erster Stelle standen. Dennoch ist dies ein ernstzunehmender Punkt.
+Es ist wichtig dass das Minimum Viable Product einen Nutzen bringt und einfach in seiner Bedienung ist.\cite{Full2022}
+Durch Feedback von unseren Testern konnten wir herauskristallisieren, dass unsere Apps durch ihr derzeitiges unterschiedliches Design irreführend sind - \textit{Anmerkung:} Ein einheitliches Design an sich war uns bis hier nicht wichtig, da hier tatsächlich der Lernerfolg und Spaß an der Bearbeitung an erster Stelle standen. Dennoch ist dies ein ernstzunehmender Punkt.
 \\
 \\
-Desweiteren wurde sich gewünscht, dass kleine User Manuals für beispielsweise die Systemerweiterung in Form von Kurzvideos bereitgestellt werden - so muss kein Papier verschwendet werden, und bei notwendigen Informations-Updates oder generellen Neuerungen kann dies schnell und einfach digital passieren. Ebenfalls wäre ein Routentracking vorteilhaft, da derzeit immer nur der letzte Standort abgerufen werden kann - so könnte das gestohlene Auto besser nachverfolgt werden. 
+Des Weiteren wurde sich gewünscht, dass kleine User Manuals für beispielsweise die Systemerweiterung in Form von Kurzvideos bereitgestellt werden - so muss kein Papier verschwendet werden, und bei notwendigen Informations-Updates oder generellen Neuerungen kann dies schnell und einfach digital passieren. Ebenfalls wäre ein Routentracking vorteilhaft, da derzeit immer nur der letzte Standort abgerufen werden kann - so könnte das gestohlene Auto besser nachverfolgt werden. 
 \\
 \\
 Nach so einigen Verbesserungsvorschlägen möchten wir natürlich auch noch festhalten, dass besonders die offene und so leicht erweiterbare Bauweise, die erste ergänzende Idee mit der Sirene, der Geofencing-Mechanismus sowie dass es Apps für beide Betriebssysteme gibt, für sehr positiv empfunden wurden.
@@ -33,13 +33,20 @@ Nach so einigen Verbesserungsvorschlägen möchten wir natürlich auch noch fest
 
 \section{Zukünftige Entwicklung}
 
-\textbf{Arduino}
+\subsubsection{Arduino}
+
+Als Erweiterungen für den Arduino sollen in Zukunft noch eine Alarmsirene vom Typen BSE128(Abbildung \ref{digi}) verbaut  und für die Standorterkennung noch die Google API zur besseren Lokalisierung genutzt werden. 
+\begin{figure} [H]
+	\begin{center}
+		\includegraphics[width=0.75\textwidth]{Bilder/Digisound.jpg}
+		\caption{Sirene Digisound B/SE 128}
+		\label{digi}
+	\end{center}
+\end{figure}
+Für die Sirene muss das Gesamtsystem noch dahingehend erweitert werden, dass eine Kommunikation zum Arduino hin möglich wird. Auf dem Arduino muss hierfür noch realisiert werden, dass der Rückgabewert vom Server abgespeichert wird und in regelmäßigen Abständen geprüft wird, dass sich das Gerät nicht aus dem vom Anwender definierten Bereich entfernt hat. Es muss also noch Geofencing stabil implementiert werden, um zu erkennen wann die Sirene auslösen soll. Es ist aber auch eine einfache Lösung denkbar, bei der der Benutzer den Alarm aus der Entfernung selbst steuern muss beziehungsweise kann.
 \\
 \\
-Als Erweiterungen für den Arduino sollen in Zukunft noch eine Alarmsirene vom Typen BSE128 verbaut werden und für die Standorterkennung noch die Google API zur beseren Lokalisierung genutzen werden. 
-Für die Sirene muss das Gesamtsystem noch dahingehend erweitert werden, dass eine Kommunikation zum Arduino hin möglich wird. Auf dem Arduino muss hierfür noch realisiert werden, dass der Rückgabewert vom Server abgespeichert wird und in regelmäßigen Abständen geprüft wird, dass sich das Gerät nicht aus dem vom Anwender definierten Bereich entfernt hat. Es muss also noch Geofencing ermöglicht werden, um zu erkennen wann die Sirene auslösen soll. Es ist aber auch eine einfache Lösung denkbar, bei der der Benutzer den Alarm aus der Entfernung selbst steuern muss bzw kann.
-\\
-Aus Hardware Sicht muss dann nur die Sirene mittels Transistorschaltung an den Arduino angeschlossen und mit Strom versorgt werden, damit der Arduino das Alarmsignal im Fall einer Entwendung geben kann. Die Schaltung dafür sieht wie folgt aus:
+Aus Hardware-Sicht muss dann nur die Sirene mittels Transistorschaltung an den Arduino angeschlossen und mit Strom versorgt werden, damit der Arduino das Alarmsignal im Fall einer Entwendung geben kann. Die Schaltung dafür sieht wie folgt aus (Abbildung \ref{sirene}):
 \begin{figure} [H]
 	\begin{center}
 		\includegraphics[width=1\textwidth]{Bilder/Arduino_Sirene.jpg}
@@ -54,10 +61,9 @@ Die Sirene soll zukünftig durch eine einfache N-Channel Mosfet Schaltung gesteu
 Um den Google Standort Service effektiv verwenden zu können, ist die Erweiterung um einen WLAN Empfänger sinnvoll. Somit kann neben den Informationen, die durch GSM und GPS zur Verfügung stehen, auch die lokalen WLAN-Netze zur Standortermittlung genutzt werden. Dies erhöht weiter die Genauigkeit kann aber theoretisch auch wegfallen. Die Verwendung der API ist jedoch kostenpflichtig und dementsprechend ist das Geschäftskonzept eventuell weiter zu überdenken. Eine mögliche Lösung hierfür wäre ein monatliches Bezahlkonzept, über das man je nach Bedarf die API Standorterkennung hinzu buchen kann.
 \\
 \\
-\textbf{Webserver} 
-\\
-\\
+\subsubsection{Webserver} 
 \textit{Finalisierung der Verschlüsselung}
+\\
 Der erste Punkt, der in Zukunft bearbeitet werden soll, ist die vollständige Implementierung und ein anschließendes Testen der Verschlüsselung der Nutzdaten. Für den Webserver ist wie zuvor beschrieben bereits alles fertig. Es gilt nun also die entsprechend umgekehrten Abläufe in den beiden Apps zu realisieren.
 \\
 \\
@@ -85,9 +91,8 @@ Um nicht nur den bisherigen Übertragungsweg über den HTTP-Server nutzen zu kö
 Anschließend muss in den beiden Apps ein MQTT-SUBSCRIBE implementiert werden, um die vom Arduino veröffentlichten Daten zu erhalten. Auch dies muss parallel zur Datenabfrage vom Webserver geschehen. Zusätzlich soll in den Apps dann ein Abgleich beider Daten (HTTP und MQTT) implementiert werden. Sind beide Daten gleich werden die neuen Koordinaten übernommen. Für den anderen Fall, dass die beiden Datenpakete unterschiedlich sind, muss noch überprüft werden, welche Daten dann gespeichert werden. 
 \\
 \\
-\textbf{Apps} 
-\\
-\\
+\subsubsection{Apps} 
+
 \textit{Datenbanken}
 \\
 Für spätere Versionen sollten  Möglichkeiten einer Datenbank-Einbindung beispielsweise mit "Firebase", um die Datenbankverwaltung besser zu verwalten, implementiert werden. 
@@ -108,11 +113,11 @@ Smartwatches liegen im Trend und Smartphones werden immer größer und dadurch s
 Es ist sinnvoll, dass wenn man von mehreren Alarmsystemen in Fahrzeugen ausgeht, dass die App gesagt bekommt, welches Gerät der Nutzer Zuhause besitzt - daher sollte es eine Konfigurationsmöglichkeit innerhalb der App für das Alarmsystemgerät geben. Des weiteren wäre es auch sinnvoll, dass wenn beispielsweise eine Familie mit mehreren Systemen und unterschiedlichen Fahrzeugen diese sich in der App  gebündelt anzeigen lassen könnte - da wir derzeit jedoch nur ein System besitzen, wurde es hier erst einmal als Placeholder implementiert.
 \begin{figure} [H]
 	\begin{center}
-		\includegraphics[width=1\textwidth]{Bilder/iOS_addDevice.png}
+		\includegraphics[width=0.4\textwidth]{Bilder/iOS_addDevice.png}
 		\caption{Navigationstab \textit{Fahrzeug hinzufügen}}
 		\label{add}
 	\end{center}
 \end{figure}
 
 \section{Fazit}
-Das Projekt war eine wertvolle Erfahrung in vielen Hinsichten - so haben wir nicht nur aus dem Studium bekannte, sondern auch neue Technologien kennengelernt und erprobt. Des weiteren haben wir erfahren, was es bedeutet, ein Produkt von einer kleinen Idee bis hin zu einem umfangreichen funktionierenden Prototypen zu gestalten, entwerfen und aufzubauen. Das Projekt wird uns sicherlich mit all seinen Facetten noch lange im Gedächtnis bleiben und der ein oder andere wird es sicherlich noch weiterentwickeln.
+Das Projekt ist eine wertvolle Erfahrung in vielen Hinsichten - so haben wir nicht nur aus dem Studium bekannte, sondern auch neue Technologien kennengelernt und erprobt. Des Weiteren haben wir erfahren, was es bedeutet, ein Produkt von einer kleinen Idee bis hin zu einem umfangreichen funktionierenden Prototypen zu gestalten, entwerfen und aufzubauen. Das Projekt wird uns sicherlich mit all seinen Facetten noch lange im Gedächtnis bleiben und der ein oder andere wird es sicherlich noch weiterentwickeln.

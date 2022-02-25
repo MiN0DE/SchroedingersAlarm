@@ -68,6 +68,34 @@
     \field{year}{2022}
   \endentry
 
+  \entry{Duemmer2021}{article}{}
+    \name{author}{1}{}{%
+      {{hash=DK}{%
+         family={Dümmer},
+         familyi={D\bibinitperiod},
+         given={Katharina},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \keyw{Autodiebstahl}
+    \strng{namehash}{DK1}
+    \strng{fullhash}{DK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Dü21}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{title}{Autodiebstahl: Welche Pkw bei Kfz-Knackern besonders beliebt
+  sind}
+    \verb{url}
+    \verb https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/auto
+    \verb /autodiebstahl-statistik/
+    \endverb
+    \field{journaltitle}{ADAC}
+    \field{month}{10}
+    \field{year}{2021}
+  \endentry
+
   \entry{Full2022}{misc}{}
     \name{author}{1}{}{%
       {{hash=FDIH}{%
@@ -251,6 +279,28 @@
     \verb https://www.programmierenlernenhq.de/android-studio-tipps/
     \endverb
     \field{type}{techreport}
+  \endentry
+
+  \entry{RolfDraehter2019}{article}{}
+    \name{author}{1}{}{%
+      {{hash=RDHKuCS}{%
+         family={Rolf\bibnamedelima Drähter},
+         familyi={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+         given={Holger Koschek und Carsten\bibnamedelima Sahling},
+         giveni={H\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim
+  u\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RDHKuCS1}
+    \strng{fullhash}{RDHKuCS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{RD19}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{title}{Scrum kurz & gut}
+    \field{journaltitle}{O´Reillys Taschenbibliothek}
+    \field{year}{2019}
   \endentry
 
   \entry{SDK}{report}{}

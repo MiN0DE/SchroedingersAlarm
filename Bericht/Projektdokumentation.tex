@@ -18,25 +18,33 @@
 
 \date{\today}
 \title{ \textbf{\textit{Konzeption und Entwicklung eines autarken Alarmsystems für Kraftfahrzeuge auf Basis GPS gestützter IoT-Technologie}}}
-\author{Projektdokumentation von: \\ \\ Lucas Hanisch (577019) \\ Seifeddine Mhiri (577027) \\ Paul Krause (577157)  \\  Monique Golnik (563075) \\ \\ \\ im Modul \textit{Projekt netzbasierte Systeme} \\ \\ Master Informations- und Kommunikationstechnik WS 2021/22 }
+\author{Projektdokumentation von: \\ \\ Lucas Hanisch (577019) \\ Seifeddine Mhiri (577027) \\ Paul Krause (577157)  \\  Monique Golnik (563075) \\ \\ \\ im Modul \textit{ M12 Projekt Netzbasierte Systeme} \\ \\ Master Informations- und Kommunikationstechnik WS 2021/22 }
 
 \begin{document}
 	\maketitle
 	\tableofcontents
 	
 \chapter{Einführung}
-	
-Im Rahmen des Masterstudiums wird das Studienfach „Projekt Netzbasierte Systeme“ angeboten. Der Kurs basiert auf einer Gruppenarbeit. Die Gruppe muss ein Thema wählen, das ein Problem mit der neuesten IT-Technologie löst. Das Projekt muss wie im realen Arbeitsleben durchgeführt werden. Die Aufgabenstellungen werden aus dem Themenbereich Informatik, Nachrichtentechnik und Kommunikationstechnik formuliert und unter Labor- und Praxisbedingungen bearbeitet. Die Studierenden haben die Fähigkeit entwickelt, konzeptionell Projekte zu erarbeiten, diese strukturiert, ablauf- und zielorientiert zu bearbeiten sowie erfolgreiche und verwertbare Ergebnisse zu präsentieren. Die Gruppe soll das Ziel haben, das Projekt so gut wie möglich zu vermarkten. Das Projekt wird sowohl den Managementteil als auch den technischen Teil evaluieren.\\\\
-Um das Thema für das Projekt zu wählen, hat man sich in Gruppen aufgeteilt und ein Brainstorming über die möglichen Probleme im Leben und deren Lösungen durchgeführt. Dieses wurde mithilfe der Post-IT Methode durchgeführt. Man schreibt die Ideen für eine Lösung eines Problems. Dadurch werden die Ideen gesammelt und das Thema, das Projekt wird näher definiert und dargestellt. \\\\
-Durch für Methode des Design Thinking wird das Thema genauer definiert. Man hat sich immer die Fragen gestellt: Welches Problem soll gelöst werden? Wer ist der Adressat der Lösung? Welche Priorität hat dieses Vorhaben? Was sind die Erfolgsfaktoren? \\\\
 
-Die „SchrödingersAlarm“ Gruppe sind vier Studierende, die an der HTW Berlin den Master Informations- und Kommunikationstechnik studieren. Die Qualität in der Gruppe hat sie zusammen vereint. Die Qualitäten der Gruppe basieren auf Teamfähigkeit, Zuverlässigkeit und Lernbereitschaft. Jeder in der Gruppe ist selbstständig und hat eine eigenverantwortliche Arbeitsweise. Die Loyalität, eine bessere Welt zu gestalten, hat sie motiviert, dieses Projekt miteinander zu arbeiten.\\\\
-Nachdem das Team Ideen gesammelt hat, kam es zu der Idee, ein System zum Schutz vor Automobil Diebstahl zu entwerfen. Als ersten Prototyp soll ein integriertes GPS-Modul, das die Koordinaten an das Smartphone des Nutzer bzw. Eigentümers senden. Bei dem Fall, dass sich das Auto vom zuvor vom Nutzer festgelegten Standort weiter entfernt, soll eine Push-Benachrichtigung an den Nutzer bzw. Fahrzeugbesitzer gesendet werden.
+Allein in Deutschland wurden laut dem ADAC im Jahr 2020 \textbf{10.697} kaskoversicherte \textbf{Autos gestohlen} – rechnerisch also 29 Fahrzeuge pro Tag. Die mit Abstand höchste Diebstahlrate verzeichnet dabei erneut Berlin, wo im vergangenen Jahr 2267 Pkw geklaut wurden. Wie schon im Vorjahr, findet mehr als jeder fünfte Autodiebstahl in der Bundeshauptstadt statt. \cite{Duemmer2021}
+\\
+\\
+Im Rahmen des Gruppenabschlussprojektes im Master Informations- und Kommunikationstechnik haben wir uns daher dafür entschieden, ein System zu entwickeln, welches besonders Haltern von älteren Fahrzeugmodellen, die oft überhaupt nicht mit modernen Security Systemen ausgestattet sind, ein sichereres Gefühl vermitteln soll. Eines unserer Gruppenmitglieder ist zudem direkt von dieser Problematik betroffen, weshalb wir besonders motiviert an die Umsetzung dieses Projektes herangegangen sind und uns so ein Stückweit der Kriminalität entgegenstellen wollen.
+\\
+\\
+Der Fokus des Moduls Projekt Netzbasierte Systeme liegt  auf Informatik, Kommunikations- und  Nachrichtentechnik. Daher basiert das hier beschriebene und realisierte Projekt auf unterschiedlichen, miteinander agierenden Technologien aus dem Hard- und Softwaresegment. Ein weiterer Schwerpunkt war, das entstehende Produkt nicht nur technisch zu entwickeln, sondern auch aus der sichtweise des Projektmanagements. Dafür wurden neue Methoden im Laufe des Moduls wie beispielsweise Design-Thinking kennengelernt und umgesetzt.
+\\
+\\
+Das nachfolgend beschriebene Projekt - gerne auch kurz  Schrödingers Alarm genannt, welches von Seifeddine Mhiri, Lucas Hanisch, Paul Krause und Monique Golnik umgesetzt wird, sieht die Implementierung eines vernetzten Systems bestehend aus Arduino, Raspberry Pi und Smartphone und somit die Kommunikation dieser Module untereinander vor.
+
+
+
 
 	
 	
 	\chapter{Zielsetzung}
 	\input{Zielsetzung.tex}
+	\clearpage
 	\input{Ideensammlung.tex}
 	\chapter{Projektmanagement}
 	\input{Projektmanagement.tex}	
@@ -52,8 +60,18 @@ Nachdem das Team Ideen gesammelt hat, kam es zu der Idee, ein System zum Schutz 
 	\input{Rück_Ausblick}
 	
 	\chapter{Anhänge}
-	\section{Codequellen}
-	Für die Versionierung der Fortschritte sowie ein vereinfachtes Zusammenarbeiten auf Distanz haben wir das Versionsverwaltungstool Git genutzt - hier ist auch der Code für den Webserver, Arduino und die Apps einzusehen. Der Übersicht halber haben wir darauf verzichtet diesen in der Dokumentation extra aufzuführen. Das öffentliche Git-Repository ist hier zu finden: \textit{https://github.com/MiN0DE/SchroedingersAlarm}
+	\section{Quellcode}
+	Für die Versionierung der Fortschritte sowie ein vereinfachtes Zusammenarbeiten auf Distanz haben wir das Versionsverwaltungstool Git genutzt - hier ist auch der Code für den Webserver, Arduino und die Apps einzusehen. Der Übersicht halber haben wir darauf verzichtet diesen in der Dokumentation extra aufzuführen. 
+	\\
+	\\
+	Das öffentliche Git-Repository ist hier zu finden:
+	\\ \textit{https://github.com/MiN0DE/SchroedingersAlarm}
+	\section{Videos}
+	Android-App: \textit{https://www.youtube.com/watch?v=\_CBTdDctr2k}
+	\\
+	\\
+	iOS-App: \textit{https://www.youtube.com/watch?v=gWaSZPfxT9s} 
+
 	
 	
 	\addcontentsline{toc}{chapter}{Abbildungsverzeichnis}	

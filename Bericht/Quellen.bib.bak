@@ -75,9 +75,6 @@
   url         = {https://worldofvr.de/xcode/},
 }
 
-@Article{,
-}
-
 @TechReport{Inca,
   author      = {Apple Inc},
   institution = {Apple Inc},
@@ -86,6 +83,15 @@
   owner       = {Apple Inc},
   timestamp   = {2022-02-22},
   url         = {https://developer.apple.com/documentation/swiftui},
+}
+
+@Article{Bode2022,
+  author   = {Katja Nele Bode},
+  journal  = {centaur},
+  title    = {Anleitung zum Fliegen lernen},
+  year     = {2022},
+  month    = feb,
+  keywords = {Kreativitätstheorie},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

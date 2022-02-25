@@ -3,106 +3,132 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Einführung}{3}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Zielsetzung}{5}{}%
+\contentsline {chapter}{\numberline {2}Zielsetzung}{4}{}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.1}Ideensammlung}{5}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.1}Das Starkstrom Taser Auto}{6}{}%
+\contentsline {subsection}{\numberline {2.1.1}Das Starkstrom Taser Auto}{5}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.2}Die autoleere Stadt}{6}{}%
+\contentsline {subsection}{\numberline {2.1.2}Die autoleere Stadt}{5}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.3}Gesichtserkennung und Startunterbrechung}{7}{}%
+\contentsline {subsection}{\numberline {2.1.3}Gesichtserkennung und Startunterbrechung}{6}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Projektmanagement}{8}{}%
+\contentsline {chapter}{\numberline {3}Projektmanagement}{7}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Umfrage}{8}{}%
+\contentsline {section}{\numberline {3.1}Umfrage}{7}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Persona}{10}{}%
+\contentsline {section}{\numberline {3.2}Persona}{9}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Konzept}{11}{}%
+\contentsline {section}{\numberline {3.3}Konzept}{10}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Entwicklung}{13}{}%
+\contentsline {chapter}{\numberline {4}Entwicklung}{12}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Arduino}{13}{}%
+\contentsline {section}{\numberline {4.1}Arduino}{12}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.1}Ausstattung}{13}{}%
+\contentsline {subsection}{\numberline {4.1.1}Ausstattung}{12}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.2}Software}{13}{}%
+\contentsline {subsection}{\numberline {4.1.2}Software}{12}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.3}Aufbau Code}{15}{}%
+\contentsline {subsection}{\numberline {4.1.3}Aufbau Code}{14}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.4}Entwicklungsprozess}{16}{}%
+\contentsline {subsection}{\numberline {4.1.4}Entwicklungsprozess}{15}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.5}Aufbau Hardware}{17}{}%
+\contentsline {subsection}{\numberline {4.1.5}Aufbau Hardware}{16}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.6}Probleme}{18}{}%
+\contentsline {subsection}{\numberline {4.1.6}Probleme}{17}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Webserver}{19}{}%
+\contentsline {section}{\numberline {4.2}Webserver}{18}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}Einrichtung des Webservers auf einem Raspberry Pi}{19}{}%
+\contentsline {subsection}{\numberline {4.2.1}Einrichtung des Webservers auf einem Raspberry Pi}{18}{}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2.2}Probleme mit dem Raspberry Pi}{20}{}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2.3}Grundsätzliche Überlegungen}{21}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.4}Testprogramme}{23}{}%
+\contentsline {subsection}{\numberline {4.2.4}Testprogramme}{22}{}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2.5}Erstellen der PHP-Skripte zum Empfangen und Bereitstellen von Daten}{23}{}%
 \defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Erläuerungen zum Code }{23}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Probleme beim Senden vom Arduino }{25}{}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2.6}Verschlüsselung der Daten}{26}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Android}{30}{}%
+\contentsline {subsubsection}{Hintergrund }{26}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.1}Mobile Apps}{30}{}%
+\contentsline {subsubsection}{Symmetrische und asymmetrische Verschlüsselungsverfahren }{27}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.2}Entwicklungsumgebung: Android Studio}{30}{}%
+\contentsline {subsubsection}{Implementierung der Verschlüsselung auf dem Webserver }{27}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.3}Flutter}{31}{}%
+\contentsline {section}{\numberline {4.3}Android}{31}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.4}Dart}{31}{}%
+\contentsline {subsection}{\numberline {4.3.1}Mobile Apps}{31}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.5}Konzept: SchrödingerSAlarm}{31}{}%
+\contentsline {subsection}{\numberline {4.3.2}Android Studio}{31}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.6}Implementierung}{33}{}%
+\contentsline {subsection}{\numberline {4.3.3}Flutter}{32}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Flutter Funktionalität}{33}{}%
+\contentsline {subsection}{\numberline {4.3.4}Dart}{32}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.7}Implementierung SchrödingersAlarm App}{34}{}%
+\contentsline {subsection}{\numberline {4.3.5}Konzept: SchrödingersAlarm}{33}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Login Menü}{34}{}%
+\contentsline {subsubsection}{Standard Fall}{33}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Hauptseite}{35}{}%
+\contentsline {subsubsection}{Alarm Fall}{33}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}App - iOS}{36}{}%
+\contentsline {subsection}{\numberline {4.3.6}Implementierung}{34}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.1}Xcode}{37}{}%
+\contentsline {subsubsection}{Flutter Funktionalität}{34}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.2}SwiftUI}{37}{}%
+\contentsline {subsection}{\numberline {4.3.7}Implementierung SchrödingersAlarm App}{35}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.3}Hauptkriterien an die Funktionalität}{38}{}%
+\contentsline {subsubsection}{Login Menü}{35}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.4}Design}{38}{}%
+\contentsline {subsubsection}{Hauptseite}{36}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.5}Probleme}{42}{}%
+\contentsline {section}{\numberline {4.4}App - iOS}{37}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Produkt}{46}{}%
+\contentsline {subsection}{\numberline {4.4.1}Xcode}{38}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}zukünftiges Produktangebot}{46}{}%
+\contentsline {subsection}{\numberline {4.4.2}SwiftUI}{38}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Vergleich}{47}{}%
+\contentsline {subsection}{\numberline {4.4.3}Hauptkriterien an die Funktionalität}{39}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Rück- und Ausblick}{49}{}%
+\contentsline {subsection}{\numberline {4.4.4}Design}{40}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Lessons Learned}{50}{}%
+\contentsline {subsection}{\numberline {4.4.5}Probleme}{44}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Zukünftige Entwicklung}{50}{}%
+\contentsline {subsubsection}{Koordinaten in JSON als String hinterlegt}{45}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Fazit}{54}{}%
+\contentsline {subsubsection}{Http? Abrufen verboten!}{45}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Anhänge}{55}{}%
+\contentsline {chapter}{\numberline {5}Produkt}{47}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Codequellen}{55}{}%
+\contentsline {section}{\numberline {5.1}zukünftiges Produktangebot}{48}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Abbildungsverzeichnis}{55}{}%
+\contentsline {section}{\numberline {5.2}Vergleich}{48}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Quellenverzeichnis}{57}{}%
+\contentsline {chapter}{\numberline {6}Rück- und Ausblick}{51}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.1}Lessons Learned}{52}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.2}Zukünftige Entwicklung}{52}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Arduino}{52}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Webserver}{54}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Apps}{56}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.3}Fazit}{57}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Anhänge}{58}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.1}Quellcode}{58}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.2}Videos}{58}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Abbildungsverzeichnis}{58}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Quellenverzeichnis}{60}{}%
